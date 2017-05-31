@@ -25,8 +25,10 @@ def Is_Server(dburl):
 	if '127.0.0.1' in dburl:
 		str1 = os.popen('hostname').read()
 		hostname = str1[0:-1]
-	else: 
+	elif 'humix-audiobox' in dburl:
 		hostname = 'humix-audiobox'
+	else: 
+		hostname = 'nodered'
 	return hostname
 
 def Rename_docid(docid, hostname):
@@ -46,7 +48,7 @@ def load_db(fileobj, dburl, username=None, password=None, ignore_errors=False):
 
 	for headers, is_multipart, payload in read_multipart(fileobj):
 		docid = headers['content-id']
-		if db.name == 'humix-audiobox-db':
+		if db.name == 'humix-audiobox-db' or db.name == 'nodered':
 			if 'credential' in docid or 'flow' in docid or 'setting' in docid or 'functions' in docid:
 				docid = Rename_docid(docid, hostname)
 		obj = db.get(docid)
