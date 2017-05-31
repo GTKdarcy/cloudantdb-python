@@ -1,0 +1,1357 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLSPHINXOPTS	doc/Makefile	/^ALLSPHINXOPTS   = -d $(BUILDDIR)\/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .$/;"	m
+BUILDDIR	doc/Makefile	/^BUILDDIR      = build$/;"	m
+BULK_SIZE	build/lib.linux-x86_64-2.7/couchdb/tools/dump.py	/^BULK_SIZE = 1000$/;"	v
+BULK_SIZE	couchdb/tools/dump.py	/^BULK_SIZE = 1000$/;"	v
+BooleanField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class BooleanField(Field):$/;"	c
+BooleanField	couchdb/mapping.py	/^class BooleanField(Field):$/;"	c
+CHUNK_SIZE	build/lib.linux-x86_64-2.7/couchdb/http.py	/^CHUNK_SIZE = 1024 * 8$/;"	v
+CHUNK_SIZE	couchdb/http.py	/^CHUNK_SIZE = 1024 * 8$/;"	v
+CRLF	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^CRLF = b'\\r\\n'$/;"	v
+CRLF	couchdb/multipart.py	/^CRLF = b'\\r\\n'$/;"	v
+Cache	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class Cache(object):$/;"	c
+Cache	couchdb/http.py	/^class Cache(object):$/;"	c
+CacheTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^class CacheTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+CacheTestCase	couchdb/tests/couchhttp.py	/^class CacheTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ConnPool	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^        class ConnPool(object):$/;"	c	function:ResponseBodyTestCase.test_close
+ConnPool	couchdb/tests/couchhttp.py	/^        class ConnPool(object):$/;"	c	function:ResponseBodyTestCase.test_close
+ConnectionPool	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class ConnectionPool(object):$/;"	c
+ConnectionPool	couchdb/http.py	/^class ConnectionPool(object):$/;"	c
+CouchTests	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^class CouchTests(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+CouchTests	couchdb/tests/couch_tests.py	/^class CouchTests(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+DEFAULT	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^DEFAULT = object()$/;"	v
+DEFAULT	couchdb/mapping.py	/^DEFAULT = object()$/;"	v
+DEFAULT_BASE_URL	build/lib.linux-x86_64-2.7/couchdb/client.py	/^DEFAULT_BASE_URL = os.environ.get('COUCHDB_URL', 'http:\/\/localhost:5984\/')$/;"	v
+DEFAULT_BASE_URL	couchdb/client.py	/^DEFAULT_BASE_URL = os.environ.get('COUCHDB_URL', 'http:\/\/localhost:5984\/')$/;"	v
+Database	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class Database(object):$/;"	c
+Database	couchdb/client.py	/^class Database(object):$/;"	c
+DatabaseTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^class DatabaseTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+DatabaseTestCase	couchdb/tests/client.py	/^class DatabaseTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+DateField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class DateField(Field):$/;"	c
+DateField	couchdb/mapping.py	/^class DateField(Field):$/;"	c
+DateTimeField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class DateTimeField(Field):$/;"	c
+DateTimeField	couchdb/mapping.py	/^class DateTimeField(Field):$/;"	c
+DecimalField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class DecimalField(Field):$/;"	c
+DecimalField	couchdb/mapping.py	/^class DecimalField(Field):$/;"	c
+DesignTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/design.py	/^class DesignTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+DesignTestCase	couchdb/tests/design.py	/^class DesignTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+DictField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class DictField(Field):$/;"	c
+DictField	couchdb/mapping.py	/^class DictField(Field):$/;"	c
+DictLike	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^        class DictLike(object):$/;"	c	function:DatabaseTestCase.test_copy_doc_dest_dictlike
+DictLike	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^        class DictLike(object):$/;"	c	function:DatabaseTestCase.test_copy_doc_src_dictlike
+DictLike	couchdb/tests/client.py	/^        class DictLike(object):$/;"	c	function:DatabaseTestCase.test_copy_doc_dest_dictlike
+DictLike	couchdb/tests/client.py	/^        class DictLike(object):$/;"	c	function:DatabaseTestCase.test_copy_doc_src_dictlike
+Document	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class Document(dict):$/;"	c
+Document	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class Document(DocumentMetaClass, Mapping):$/;"	c
+Document	couchdb/client.py	/^class Document(dict):$/;"	c
+Document	couchdb/mapping.py	/^class Document(DocumentMetaClass, Mapping):$/;"	c
+DocumentMeta	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class DocumentMeta(MappingMeta):$/;"	c
+DocumentMeta	couchdb/mapping.py	/^class DocumentMeta(MappingMeta):$/;"	c
+DocumentMetaClass	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^DocumentMetaClass = DocumentMeta('DocumentMetaClass', (object,), {})$/;"	v
+DocumentMetaClass	couchdb/mapping.py	/^DocumentMetaClass = DocumentMeta('DocumentMetaClass', (object,), {})$/;"	v
+DocumentTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^class DocumentTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+DocumentTestCase	couchdb/tests/mapping.py	/^class DocumentTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+DuplicateKeyError	build/lib.linux-x86_64-2.7/couchdb/loader.py	/^class DuplicateKeyError(ValueError):$/;"	c
+DuplicateKeyError	couchdb/loader.py	/^class DuplicateKeyError(ValueError):$/;"	c
+Field	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class Field(object):$/;"	c
+Field	couchdb/mapping.py	/^class Field(object):$/;"	c
+FloatField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class FloatField(Field):$/;"	c
+FloatField	couchdb/mapping.py	/^class FloatField(Field):$/;"	c
+Forbidden	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class Forbidden(HTTPError):$/;"	c
+Forbidden	couchdb/http.py	/^class Forbidden(HTTPError):$/;"	c
+HTTPConnection	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    class HTTPConnection(NagleMixin, HTTPConnection):$/;"	c
+HTTPConnection	couchdb/http.py	/^    class HTTPConnection(NagleMixin, HTTPConnection):$/;"	c
+HTTPError	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class HTTPError(Exception):$/;"	c
+HTTPError	couchdb/http.py	/^class HTTPError(Exception):$/;"	c
+HTTPSConnection	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    class HTTPSConnection(NagleMixin, HTTPSConnection):$/;"	c
+HTTPSConnection	couchdb/http.py	/^    class HTTPSConnection(NagleMixin, HTTPSConnection):$/;"	c
+Indexes	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class Indexes(object):$/;"	c
+Indexes	couchdb/client.py	/^class Indexes(object):$/;"	c
+InsecureHTTPSConnection	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class InsecureHTTPSConnection(HTTPSConnection):$/;"	c
+InsecureHTTPSConnection	couchdb/http.py	/^class InsecureHTTPSConnection(HTTPSConnection):$/;"	c
+IntegerField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class IntegerField(Field):$/;"	c
+IntegerField	couchdb/mapping.py	/^class IntegerField(Field):$/;"	c
+Item	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    class Item(mapping.Document):$/;"	c	class:WrappingTestCase
+Item	couchdb/tests/mapping.py	/^    class Item(mapping.Document):$/;"	c	class:WrappingTestCase
+ListField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class ListField(Field):$/;"	c
+ListField	couchdb/mapping.py	/^class ListField(Field):$/;"	c
+ListFieldTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^class ListFieldTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ListFieldTestCase	couchdb/tests/mapping.py	/^class ListFieldTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+LoaderTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^class LoaderTestCase(unittest.TestCase):$/;"	c
+LoaderTestCase	couchdb/tests/loader.py	/^class LoaderTestCase(unittest.TestCase):$/;"	c
+LongField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class LongField(Field):$/;"	c
+LongField	couchdb/mapping.py	/^class LongField(Field):$/;"	c
+Mapping	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class Mapping(MappingMetaClass):$/;"	c
+Mapping	couchdb/mapping.py	/^class Mapping(MappingMetaClass):$/;"	c
+MappingMeta	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class MappingMeta(type):$/;"	c
+MappingMeta	couchdb/mapping.py	/^class MappingMeta(type):$/;"	c
+MappingMetaClass	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^MappingMetaClass = MappingMeta('MappingMetaClass', (object,), {})$/;"	v
+MappingMetaClass	couchdb/mapping.py	/^MappingMetaClass = MappingMeta('MappingMetaClass', (object,), {})$/;"	v
+MultipartWriter	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^class MultipartWriter(object):$/;"	c
+MultipartWriter	couchdb/multipart.py	/^class MultipartWriter(object):$/;"	c
+NagleMixin	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    class NagleMixin:$/;"	c
+NagleMixin	couchdb/http.py	/^    class NagleMixin:$/;"	c
+PAPER	doc/Makefile	/^PAPER         =$/;"	m
+PAPEROPT_a4	doc/Makefile	/^PAPEROPT_a4     = -D latex_paper_size=a4$/;"	m
+PAPEROPT_letter	doc/Makefile	/^PAPEROPT_letter = -D latex_paper_size=letter$/;"	m
+PackageTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/package.py	/^class PackageTestCase(unittest.TestCase):$/;"	c
+PackageTestCase	couchdb/tests/package.py	/^class PackageTestCase(unittest.TestCase):$/;"	c
+PermanentView	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class PermanentView(View):$/;"	c
+PermanentView	couchdb/client.py	/^class PermanentView(View):$/;"	c
+Post	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_automatic_id
+Post	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_batch_update
+Post	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_change_id_failure
+Post	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_explicit_id_via_init
+Post	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_explicit_id_via_setter
+Post	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_store_existing
+Post	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_iter_dict
+Post	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:ListFieldTestCase.test_to_json
+Post	couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_automatic_id
+Post	couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_batch_update
+Post	couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_change_id_failure
+Post	couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_explicit_id_via_init
+Post	couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_explicit_id_via_setter
+Post	couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:DocumentTestCase.test_store_existing
+Post	couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_iter_dict
+Post	couchdb/tests/mapping.py	/^        class Post(mapping.Document):$/;"	c	function:ListFieldTestCase.test_to_json
+PreconditionFailed	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class PreconditionFailed(HTTPError):$/;"	c
+PreconditionFailed	couchdb/http.py	/^class PreconditionFailed(HTTPError):$/;"	c
+Proxy	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    class Proxy(list):$/;"	c	class:ListField
+Proxy	couchdb/mapping.py	/^    class Proxy(list):$/;"	c	class:ListField
+Py23DocChecker	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^class Py23DocChecker(doctest.OutputChecker):$/;"	c
+Py23DocChecker	couchdb/tests/testutil.py	/^class Py23DocChecker(doctest.OutputChecker):$/;"	c
+RETRYABLE_ERRORS	build/lib.linux-x86_64-2.7/couchdb/http.py	/^RETRYABLE_ERRORS = frozenset([$/;"	v
+RETRYABLE_ERRORS	couchdb/http.py	/^RETRYABLE_ERRORS = frozenset([$/;"	v
+ReadMultipartTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^class ReadMultipartTestCase(unittest.TestCase):$/;"	c
+ReadMultipartTestCase	couchdb/tests/multipart.py	/^class ReadMultipartTestCase(unittest.TestCase):$/;"	c
+RedirectLimit	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class RedirectLimit(Exception):$/;"	c
+RedirectLimit	couchdb/http.py	/^class RedirectLimit(Exception):$/;"	c
+Resource	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class Resource(object):$/;"	c
+Resource	couchdb/http.py	/^class Resource(object):$/;"	c
+ResourceConflict	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class ResourceConflict(HTTPError):$/;"	c
+ResourceConflict	couchdb/http.py	/^class ResourceConflict(HTTPError):$/;"	c
+ResourceNotFound	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class ResourceNotFound(HTTPError):$/;"	c
+ResourceNotFound	couchdb/http.py	/^class ResourceNotFound(HTTPError):$/;"	c
+ResponseBody	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class ResponseBody(object):$/;"	c
+ResponseBody	couchdb/http.py	/^class ResponseBody(object):$/;"	c
+ResponseBodyTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^class ResponseBodyTestCase(unittest.TestCase):$/;"	c
+ResponseBodyTestCase	couchdb/tests/couchhttp.py	/^class ResponseBodyTestCase(unittest.TestCase):$/;"	c
+Row	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class Row(dict):$/;"	c
+Row	couchdb/client.py	/^class Row(dict):$/;"	c
+SPHINXBUILD	doc/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXOPTS	doc/Makefile	/^SPHINXOPTS    =$/;"	m
+Server	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class Server(object):$/;"	c
+Server	couchdb/client.py	/^class Server(object):$/;"	c
+ServerError	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class ServerError(HTTPError):$/;"	c
+ServerError	couchdb/http.py	/^class ServerError(HTTPError):$/;"	c
+ServerTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^class ServerTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ServerTestCase	couchdb/tests/client.py	/^class ServerTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+Session	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class Session(object):$/;"	c
+Session	couchdb/http.py	/^class Session(object):$/;"	c
+SessionTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^class SessionTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+SessionTestCase	couchdb/tests/couchhttp.py	/^class SessionTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ShowListTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^class ShowListTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ShowListTestCase	couchdb/tests/client.py	/^class ShowListTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+TempDatabaseMixin	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^class TempDatabaseMixin(object):$/;"	c
+TempDatabaseMixin	couchdb/tests/testutil.py	/^class TempDatabaseMixin(object):$/;"	c
+TemporaryView	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class TemporaryView(View):$/;"	c
+TemporaryView	couchdb/client.py	/^class TemporaryView(View):$/;"	c
+Test	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Test(mapping.Document):$/;"	c	function:DocumentTestCase.test_mutable_fields
+Test	couchdb/tests/mapping.py	/^        class Test(mapping.Document):$/;"	c	function:DocumentTestCase.test_mutable_fields
+TestHttpResp	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^        class TestHttpResp(object):$/;"	c	function:ResponseBodyTestCase.test_double_iteration_over_same_response_body
+TestHttpResp	couchdb/tests/couchhttp.py	/^        class TestHttpResp(object):$/;"	c	function:ResponseBodyTestCase.test_double_iteration_over_same_response_body
+TestStream	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^        class TestStream(util.StringIO):$/;"	c	function:ResponseBodyTestCase.test_close
+TestStream	couchdb/tests/couchhttp.py	/^        class TestStream(util.StringIO):$/;"	c	function:ResponseBodyTestCase.test_close
+TextField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class TextField(Field):$/;"	c
+TextField	couchdb/mapping.py	/^class TextField(Field):$/;"	c
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_mutable_fields
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_append
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_append_kwargs
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_contains
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_count
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_index
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_insert
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_insert_kwargs
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_iter
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_pop
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_remove
+Thing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_slices
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_mutable_fields
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_append
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_append_kwargs
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_contains
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_count
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_index
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_insert
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_insert_kwargs
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_iter
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_pop
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_remove
+Thing	couchdb/tests/mapping.py	/^        class Thing(mapping.Document):$/;"	c	function:ListFieldTestCase.test_proxy_slices
+TimeField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class TimeField(Field):$/;"	c
+TimeField	couchdb/mapping.py	/^class TimeField(Field):$/;"	c
+ToolDumpTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/tools.py	/^class ToolDumpTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ToolDumpTestCase	couchdb/tests/tools.py	/^class ToolDumpTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ToolLoadTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/tools.py	/^class ToolLoadTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ToolLoadTestCase	couchdb/tests/tools.py	/^class ToolLoadTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+Unauthorized	build/lib.linux-x86_64-2.7/couchdb/http.py	/^class Unauthorized(HTTPError):$/;"	c
+Unauthorized	couchdb/http.py	/^class Unauthorized(HTTPError):$/;"	c
+UpdateHandlerTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^class UpdateHandlerTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+UpdateHandlerTestCase	couchdb/tests/client.py	/^class UpdateHandlerTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+View	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class View(object):$/;"	c
+View	couchdb/client.py	/^class View(object):$/;"	c
+ViewDefinition	build/lib.linux-x86_64-2.7/couchdb/design.py	/^class ViewDefinition(object):$/;"	c
+ViewDefinition	couchdb/design.py	/^class ViewDefinition(object):$/;"	c
+ViewField	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^class ViewField(object):$/;"	c
+ViewField	couchdb/mapping.py	/^class ViewField(object):$/;"	c
+ViewIterationTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^class ViewIterationTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ViewIterationTestCase	couchdb/tests/client.py	/^class ViewIterationTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ViewResults	build/lib.linux-x86_64-2.7/couchdb/client.py	/^class ViewResults(object):$/;"	c
+ViewResults	couchdb/client.py	/^class ViewResults(object):$/;"	c
+ViewServerTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^class ViewServerTestCase(unittest.TestCase):$/;"	c
+ViewServerTestCase	couchdb/tests/view.py	/^class ViewServerTestCase(unittest.TestCase):$/;"	c
+ViewTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^class ViewTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+ViewTestCase	couchdb/tests/client.py	/^class ViewTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+Wrapper	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^        class Wrapper(object):$/;"	c	function:ViewTestCase.test_wrapper_iter
+Wrapper	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^        class Wrapper(object):$/;"	c	function:ViewTestCase.test_wrapper_rows
+Wrapper	couchdb/tests/client.py	/^        class Wrapper(object):$/;"	c	function:ViewTestCase.test_wrapper_iter
+Wrapper	couchdb/tests/client.py	/^        class Wrapper(object):$/;"	c	function:ViewTestCase.test_wrapper_rows
+WrappingTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^class WrappingTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+WrappingTestCase	couchdb/tests/mapping.py	/^class WrappingTestCase(testutil.TempDatabaseMixin, unittest.TestCase):$/;"	c
+WriteMultipartTestCase	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^class WriteMultipartTestCase(unittest.TestCase):$/;"	c
+WriteMultipartTestCase	couchdb/tests/multipart.py	/^class WriteMultipartTestCase(unittest.TestCase):$/;"	c
+__all__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^__all__ = ['Server', 'Database', 'Document', 'ViewResults', 'Row']$/;"	v
+__all__	build/lib.linux-x86_64-2.7/couchdb/design.py	/^__all__ = ['ViewDefinition']$/;"	v
+__all__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^__all__ = ['HTTPError', 'PreconditionFailed', 'ResourceNotFound',$/;"	v
+__all__	build/lib.linux-x86_64-2.7/couchdb/json.py	/^__all__ = ['decode', 'encode', 'use']$/;"	v
+__all__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^__all__ = ['Mapping', 'Document', 'Field', 'TextField', 'FloatField',$/;"	v
+__all__	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^__all__ = ['read_multipart', 'write_multipart']$/;"	v
+__all__	build/lib.linux-x86_64-2.7/couchdb/util2.py	/^__all__ = [$/;"	v
+__all__	build/lib.linux-x86_64-2.7/couchdb/util3.py	/^__all__ = [$/;"	v
+__all__	build/lib.linux-x86_64-2.7/couchdb/view.py	/^__all__ = ['main', 'run']$/;"	v
+__all__	couchdb/client.py	/^__all__ = ['Server', 'Database', 'Document', 'ViewResults', 'Row']$/;"	v
+__all__	couchdb/design.py	/^__all__ = ['ViewDefinition']$/;"	v
+__all__	couchdb/http.py	/^__all__ = ['HTTPError', 'PreconditionFailed', 'ResourceNotFound',$/;"	v
+__all__	couchdb/json.py	/^__all__ = ['decode', 'encode', 'use']$/;"	v
+__all__	couchdb/mapping.py	/^__all__ = ['Mapping', 'Document', 'Field', 'TextField', 'FloatField',$/;"	v
+__all__	couchdb/multipart.py	/^__all__ = ['read_multipart', 'write_multipart']$/;"	v
+__all__	couchdb/util2.py	/^__all__ = [$/;"	v
+__all__	couchdb/util3.py	/^__all__ = [$/;"	v
+__all__	couchdb/view.py	/^__all__ = ['main', 'run']$/;"	v
+__bool__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __bool__(self):$/;"	m	class:Database	file:
+__bool__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __bool__(self):$/;"	m	class:Server	file:
+__bool__	couchdb/client.py	/^    def __bool__(self):$/;"	m	class:Database	file:
+__bool__	couchdb/client.py	/^    def __bool__(self):$/;"	m	class:Server	file:
+__call__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __call__(self, **options):$/;"	m	class:View	file:
+__call__	build/lib.linux-x86_64-2.7/couchdb/design.py	/^    def __call__(self, db, **options):$/;"	m	class:ViewDefinition	file:
+__call__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def __call__(self, *path):$/;"	m	class:Resource	file:
+__call__	couchdb/client.py	/^    def __call__(self, **options):$/;"	m	class:View	file:
+__call__	couchdb/design.py	/^    def __call__(self, db, **options):$/;"	m	class:ViewDefinition	file:
+__call__	couchdb/http.py	/^    def __call__(self, *path):$/;"	m	class:Resource	file:
+__contains__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __contains__(self, id):$/;"	m	class:Database	file:
+__contains__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __contains__(self, name):$/;"	m	class:Server	file:
+__contains__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __contains__(self, value):$/;"	m	class:ListField.Proxy	file:
+__contains__	couchdb/client.py	/^    def __contains__(self, id):$/;"	m	class:Database	file:
+__contains__	couchdb/client.py	/^    def __contains__(self, name):$/;"	m	class:Server	file:
+__contains__	couchdb/mapping.py	/^        def __contains__(self, value):$/;"	m	class:ListField.Proxy	file:
+__del__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def __del__(self):$/;"	m	class:ConnectionPool	file:
+__del__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def __del__(self):$/;"	m	class:ResponseBody	file:
+__del__	couchdb/http.py	/^    def __del__(self):$/;"	m	class:ConnectionPool	file:
+__del__	couchdb/http.py	/^    def __del__(self):$/;"	m	class:ResponseBody	file:
+__delitem__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __delitem__(self, ddoc_name):$/;"	m	class:Indexes	file:
+__delitem__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __delitem__(self, id):$/;"	m	class:Database	file:
+__delitem__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __delitem__(self, name):$/;"	m	class:Server	file:
+__delitem__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __delitem__(self, index):$/;"	m	class:ListField.Proxy	file:
+__delitem__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __delitem__(self, name):$/;"	m	class:Mapping	file:
+__delitem__	couchdb/client.py	/^    def __delitem__(self, ddoc_name):$/;"	m	class:Indexes	file:
+__delitem__	couchdb/client.py	/^    def __delitem__(self, id):$/;"	m	class:Database	file:
+__delitem__	couchdb/client.py	/^    def __delitem__(self, name):$/;"	m	class:Server	file:
+__delitem__	couchdb/mapping.py	/^        def __delitem__(self, index):$/;"	m	class:ListField.Proxy	file:
+__delitem__	couchdb/mapping.py	/^    def __delitem__(self, name):$/;"	m	class:Mapping	file:
+__delslice__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __delslice__(self, i, j):$/;"	m	class:ListField.Proxy	file:
+__delslice__	couchdb/mapping.py	/^        def __delslice__(self, i, j):$/;"	m	class:ListField.Proxy	file:
+__docformat__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	build/lib.linux-x86_64-2.7/couchdb/design.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	build/lib.linux-x86_64-2.7/couchdb/view.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	couchdb/client.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	couchdb/design.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	couchdb/http.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	couchdb/mapping.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	couchdb/multipart.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__docformat__	couchdb/view.py	/^__docformat__ = 'restructuredtext en'$/;"	v
+__enter__	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^    def __enter__(self):$/;"	m	class:MultipartWriter	file:
+__enter__	couchdb/multipart.py	/^    def __enter__(self):$/;"	m	class:MultipartWriter	file:
+__eq__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __eq__(self, other):$/;"	m	class:ListField.Proxy	file:
+__eq__	couchdb/mapping.py	/^        def __eq__(self, other):$/;"	m	class:ListField.Proxy	file:
+__exit__	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MultipartWriter	file:
+__exit__	couchdb/multipart.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:MultipartWriter	file:
+__ge__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __ge__(self, other):$/;"	m	class:ListField.Proxy	file:
+__ge__	couchdb/mapping.py	/^        def __ge__(self, other):$/;"	m	class:ListField.Proxy	file:
+__get__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __get__(self, instance, cls=None):$/;"	m	class:ViewField	file:
+__get__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __get__(self, instance, owner):$/;"	m	class:Field	file:
+__get__	couchdb/mapping.py	/^    def __get__(self, instance, cls=None):$/;"	m	class:ViewField	file:
+__get__	couchdb/mapping.py	/^    def __get__(self, instance, owner):$/;"	m	class:Field	file:
+__getitem__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __getitem__(self, id):$/;"	m	class:Database	file:
+__getitem__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __getitem__(self, key):$/;"	m	class:ViewResults	file:
+__getitem__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __getitem__(self, name):$/;"	m	class:Server	file:
+__getitem__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __getitem__(self, index):$/;"	m	class:ListField.Proxy	file:
+__getitem__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __getitem__(self, name):$/;"	m	class:Mapping	file:
+__getitem__	couchdb/client.py	/^    def __getitem__(self, id):$/;"	m	class:Database	file:
+__getitem__	couchdb/client.py	/^    def __getitem__(self, key):$/;"	m	class:ViewResults	file:
+__getitem__	couchdb/client.py	/^    def __getitem__(self, name):$/;"	m	class:Server	file:
+__getitem__	couchdb/mapping.py	/^        def __getitem__(self, index):$/;"	m	class:ListField.Proxy	file:
+__getitem__	couchdb/mapping.py	/^    def __getitem__(self, name):$/;"	m	class:Mapping	file:
+__getslice__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __getslice__(self, i, j):$/;"	m	class:ListField.Proxy	file:
+__getslice__	couchdb/mapping.py	/^        def __getslice__(self, i, j):$/;"	m	class:ListField.Proxy	file:
+__gt__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __gt__(self, other):$/;"	m	class:ListField.Proxy	file:
+__gt__	couchdb/mapping.py	/^        def __gt__(self, other):$/;"	m	class:ListField.Proxy	file:
+__init__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __init__(self, uri, map_fun, reduce_fun=None,$/;"	m	class:TemporaryView
+__init__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __init__(self, uri, name, wrapper=None, session=None):$/;"	m	class:PermanentView
+__init__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __init__(self, url, name=None, session=None):$/;"	m	class:Database
+__init__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __init__(self, url, session=None):$/;"	m	class:Indexes
+__init__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __init__(self, url, wrapper=None, session=None):$/;"	m	class:View
+__init__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __init__(self, url=DEFAULT_BASE_URL, full_commit=True, session=None):$/;"	m	class:Server
+__init__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __init__(self, view, options):$/;"	m	class:ViewResults
+__init__	build/lib.linux-x86_64-2.7/couchdb/design.py	/^    def __init__(self, design, name, map_fun, reduce_fun=None,$/;"	m	class:ViewDefinition
+__init__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^        def __init__(self, *a, **k):$/;"	m	class:InsecureHTTPSConnection
+__init__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def __init__(self):$/;"	m	class:Cache
+__init__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def __init__(self, cache=None, timeout=None, max_redirects=5,$/;"	m	class:Session
+__init__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def __init__(self, resp, conn_pool, url, conn):$/;"	m	class:ResponseBody
+__init__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def __init__(self, timeout, disable_ssl_verification=False):$/;"	m	class:ConnectionPool
+__init__	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def __init__(self, url, session, headers=None):$/;"	m	class:Resource
+__init__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __init__(self, list, field):$/;"	m	class:ListField.Proxy
+__init__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __init__(self, **values):$/;"	m	class:Mapping
+__init__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __init__(self, design, map_fun, reduce_fun=None, name=None,$/;"	m	class:ViewField
+__init__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __init__(self, field, name=None, default=None):$/;"	m	class:ListField
+__init__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __init__(self, id=None, **values):$/;"	m	class:Document
+__init__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __init__(self, mapping=None, name=None, default=None):$/;"	m	class:DictField
+__init__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __init__(self, name=None, default=None):$/;"	m	class:Field
+__init__	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^    def __init__(self, fileobj, headers=None, subtype='mixed', boundary=None):$/;"	m	class:MultipartWriter
+__init__	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^            def __init__(self, doc):$/;"	m	class:DatabaseTestCase.test_copy_doc_dest_dictlike.DictLike
+__init__	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^            def __init__(self, doc):$/;"	m	class:DatabaseTestCase.test_copy_doc_src_dictlike.DictLike
+__init__	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^            def __init__(self, doc):$/;"	m	class:ViewTestCase.test_wrapper_iter.Wrapper
+__init__	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^            def __init__(self, doc):$/;"	m	class:ViewTestCase.test_wrapper_rows.Wrapper
+__init__	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^            def __init__(self):$/;"	m	class:ResponseBodyTestCase.test_close.ConnPool
+__init__	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^            def __init__(self, fp):$/;"	m	class:ResponseBodyTestCase.test_double_iteration_over_same_response_body.TestHttpResp
+__init__	couchdb/client.py	/^    def __init__(self, uri, map_fun, reduce_fun=None,$/;"	m	class:TemporaryView
+__init__	couchdb/client.py	/^    def __init__(self, uri, name, wrapper=None, session=None):$/;"	m	class:PermanentView
+__init__	couchdb/client.py	/^    def __init__(self, url, name=None, session=None):$/;"	m	class:Database
+__init__	couchdb/client.py	/^    def __init__(self, url, session=None):$/;"	m	class:Indexes
+__init__	couchdb/client.py	/^    def __init__(self, url, wrapper=None, session=None):$/;"	m	class:View
+__init__	couchdb/client.py	/^    def __init__(self, url=DEFAULT_BASE_URL, full_commit=True, session=None):$/;"	m	class:Server
+__init__	couchdb/client.py	/^    def __init__(self, view, options):$/;"	m	class:ViewResults
+__init__	couchdb/design.py	/^    def __init__(self, design, name, map_fun, reduce_fun=None,$/;"	m	class:ViewDefinition
+__init__	couchdb/http.py	/^        def __init__(self, *a, **k):$/;"	m	class:InsecureHTTPSConnection
+__init__	couchdb/http.py	/^    def __init__(self):$/;"	m	class:Cache
+__init__	couchdb/http.py	/^    def __init__(self, cache=None, timeout=None, max_redirects=5,$/;"	m	class:Session
+__init__	couchdb/http.py	/^    def __init__(self, resp, conn_pool, url, conn):$/;"	m	class:ResponseBody
+__init__	couchdb/http.py	/^    def __init__(self, timeout, disable_ssl_verification=False):$/;"	m	class:ConnectionPool
+__init__	couchdb/http.py	/^    def __init__(self, url, session, headers=None):$/;"	m	class:Resource
+__init__	couchdb/mapping.py	/^        def __init__(self, list, field):$/;"	m	class:ListField.Proxy
+__init__	couchdb/mapping.py	/^    def __init__(self, **values):$/;"	m	class:Mapping
+__init__	couchdb/mapping.py	/^    def __init__(self, design, map_fun, reduce_fun=None, name=None,$/;"	m	class:ViewField
+__init__	couchdb/mapping.py	/^    def __init__(self, field, name=None, default=None):$/;"	m	class:ListField
+__init__	couchdb/mapping.py	/^    def __init__(self, id=None, **values):$/;"	m	class:Document
+__init__	couchdb/mapping.py	/^    def __init__(self, mapping=None, name=None, default=None):$/;"	m	class:DictField
+__init__	couchdb/mapping.py	/^    def __init__(self, name=None, default=None):$/;"	m	class:Field
+__init__	couchdb/multipart.py	/^    def __init__(self, fileobj, headers=None, subtype='mixed', boundary=None):$/;"	m	class:MultipartWriter
+__init__	couchdb/tests/client.py	/^            def __init__(self, doc):$/;"	m	class:DatabaseTestCase.test_copy_doc_dest_dictlike.DictLike
+__init__	couchdb/tests/client.py	/^            def __init__(self, doc):$/;"	m	class:DatabaseTestCase.test_copy_doc_src_dictlike.DictLike
+__init__	couchdb/tests/client.py	/^            def __init__(self, doc):$/;"	m	class:ViewTestCase.test_wrapper_iter.Wrapper
+__init__	couchdb/tests/client.py	/^            def __init__(self, doc):$/;"	m	class:ViewTestCase.test_wrapper_rows.Wrapper
+__init__	couchdb/tests/couchhttp.py	/^            def __init__(self):$/;"	m	class:ResponseBodyTestCase.test_close.ConnPool
+__init__	couchdb/tests/couchhttp.py	/^            def __init__(self, fp):$/;"	m	class:ResponseBodyTestCase.test_double_iteration_over_same_response_body.TestHttpResp
+__iter__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __iter__(self):$/;"	m	class:Database	file:
+__iter__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __iter__(self):$/;"	m	class:Indexes	file:
+__iter__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __iter__(self):$/;"	m	class:Server	file:
+__iter__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __iter__(self):$/;"	m	class:View	file:
+__iter__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __iter__(self):$/;"	m	class:ViewResults	file:
+__iter__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __iter__(self):$/;"	m	class:ListField.Proxy	file:
+__iter__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __iter__(self):$/;"	m	class:Mapping	file:
+__iter__	couchdb/client.py	/^    def __iter__(self):$/;"	m	class:Database	file:
+__iter__	couchdb/client.py	/^    def __iter__(self):$/;"	m	class:Indexes	file:
+__iter__	couchdb/client.py	/^    def __iter__(self):$/;"	m	class:Server	file:
+__iter__	couchdb/client.py	/^    def __iter__(self):$/;"	m	class:View	file:
+__iter__	couchdb/client.py	/^    def __iter__(self):$/;"	m	class:ViewResults	file:
+__iter__	couchdb/mapping.py	/^        def __iter__(self):$/;"	m	class:ListField.Proxy	file:
+__iter__	couchdb/mapping.py	/^    def __iter__(self):$/;"	m	class:Mapping	file:
+__le__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __le__(self, other):$/;"	m	class:ListField.Proxy	file:
+__le__	couchdb/mapping.py	/^        def __le__(self, other):$/;"	m	class:ListField.Proxy	file:
+__len__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __len__(self):$/;"	m	class:Database	file:
+__len__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __len__(self):$/;"	m	class:Server	file:
+__len__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __len__(self):$/;"	m	class:ViewResults	file:
+__len__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __len__(self):$/;"	m	class:ListField.Proxy	file:
+__len__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __len__(self):$/;"	m	class:Mapping	file:
+__len__	couchdb/client.py	/^    def __len__(self):$/;"	m	class:Database	file:
+__len__	couchdb/client.py	/^    def __len__(self):$/;"	m	class:Server	file:
+__len__	couchdb/client.py	/^    def __len__(self):$/;"	m	class:ViewResults	file:
+__len__	couchdb/mapping.py	/^        def __len__(self):$/;"	m	class:ListField.Proxy	file:
+__len__	couchdb/mapping.py	/^    def __len__(self):$/;"	m	class:Mapping	file:
+__lt__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __lt__(self, other):$/;"	m	class:ListField.Proxy	file:
+__lt__	couchdb/mapping.py	/^        def __lt__(self, other):$/;"	m	class:ListField.Proxy	file:
+__ne__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __ne__(self, other):$/;"	m	class:ListField.Proxy	file:
+__ne__	couchdb/mapping.py	/^        def __ne__(self, other):$/;"	m	class:ListField.Proxy	file:
+__new__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __new__(cls, name, bases, d):$/;"	m	class:DocumentMeta	file:
+__new__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __new__(cls, name, bases, d):$/;"	m	class:MappingMeta	file:
+__new__	couchdb/mapping.py	/^    def __new__(cls, name, bases, d):$/;"	m	class:DocumentMeta	file:
+__new__	couchdb/mapping.py	/^    def __new__(cls, name, bases, d):$/;"	m	class:MappingMeta	file:
+__nonzero__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __nonzero__(self):$/;"	m	class:Database	file:
+__nonzero__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __nonzero__(self):$/;"	m	class:Server	file:
+__nonzero__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __nonzero__(self):$/;"	m	class:ListField.Proxy	file:
+__nonzero__	couchdb/client.py	/^    def __nonzero__(self):$/;"	m	class:Database	file:
+__nonzero__	couchdb/client.py	/^    def __nonzero__(self):$/;"	m	class:Server	file:
+__nonzero__	couchdb/mapping.py	/^        def __nonzero__(self):$/;"	m	class:ListField.Proxy	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __repr__(self):$/;"	m	class:Database	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __repr__(self):$/;"	m	class:Document	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __repr__(self):$/;"	m	class:PermanentView	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __repr__(self):$/;"	m	class:Row	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __repr__(self):$/;"	m	class:Server	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __repr__(self):$/;"	m	class:TemporaryView	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __repr__(self):$/;"	m	class:ViewResults	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/design.py	/^    def __repr__(self):$/;"	m	class:ViewDefinition	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __repr__(self):$/;"	m	class:ListField.Proxy	file:
+__repr__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __repr__(self):$/;"	m	class:Document	file:
+__repr__	couchdb/client.py	/^    def __repr__(self):$/;"	m	class:Database	file:
+__repr__	couchdb/client.py	/^    def __repr__(self):$/;"	m	class:Document	file:
+__repr__	couchdb/client.py	/^    def __repr__(self):$/;"	m	class:PermanentView	file:
+__repr__	couchdb/client.py	/^    def __repr__(self):$/;"	m	class:Row	file:
+__repr__	couchdb/client.py	/^    def __repr__(self):$/;"	m	class:Server	file:
+__repr__	couchdb/client.py	/^    def __repr__(self):$/;"	m	class:TemporaryView	file:
+__repr__	couchdb/client.py	/^    def __repr__(self):$/;"	m	class:ViewResults	file:
+__repr__	couchdb/design.py	/^    def __repr__(self):$/;"	m	class:ViewDefinition	file:
+__repr__	couchdb/mapping.py	/^        def __repr__(self):$/;"	m	class:ListField.Proxy	file:
+__repr__	couchdb/mapping.py	/^    def __repr__(self):$/;"	m	class:Document	file:
+__set__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __set__(self, instance, value):$/;"	m	class:Field	file:
+__set__	couchdb/mapping.py	/^    def __set__(self, instance, value):$/;"	m	class:Field	file:
+__setitem__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __setitem__(self, ddoc_name, index):$/;"	m	class:Indexes	file:
+__setitem__	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def __setitem__(self, id, content):$/;"	m	class:Database	file:
+__setitem__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __setitem__(self, index, value):$/;"	m	class:ListField.Proxy	file:
+__setitem__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def __setitem__(self, name, value):$/;"	m	class:Mapping	file:
+__setitem__	couchdb/client.py	/^    def __setitem__(self, ddoc_name, index):$/;"	m	class:Indexes	file:
+__setitem__	couchdb/client.py	/^    def __setitem__(self, id, content):$/;"	m	class:Database	file:
+__setitem__	couchdb/mapping.py	/^        def __setitem__(self, index, value):$/;"	m	class:ListField.Proxy	file:
+__setitem__	couchdb/mapping.py	/^    def __setitem__(self, name, value):$/;"	m	class:Mapping	file:
+__setslice__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __setslice__(self, i, j, seq):$/;"	m	class:ListField.Proxy	file:
+__setslice__	couchdb/mapping.py	/^        def __setslice__(self, i, j, seq):$/;"	m	class:ListField.Proxy	file:
+__str__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __str__(self):$/;"	m	class:ListField.Proxy	file:
+__str__	couchdb/mapping.py	/^        def __str__(self):$/;"	m	class:ListField.Proxy	file:
+__unicode__	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def __unicode__(self):$/;"	m	class:ListField.Proxy	file:
+__unicode__	couchdb/mapping.py	/^        def __unicode__(self):$/;"	m	class:ListField.Proxy	file:
+__version__	build/lib.linux-x86_64-2.7/couchdb/__init__.py	/^    __version__ = '?'$/;"	v
+__version__	build/lib.linux-x86_64-2.7/couchdb/__init__.py	/^    __version__ = __import__('pkg_resources').get_distribution('CouchDB').version$/;"	v
+__version__	couchdb/__init__.py	/^    __version__ = '?'$/;"	v
+__version__	couchdb/__init__.py	/^    __version__ = __import__('pkg_resources').get_distribution('CouchDB').version$/;"	v
+_call_viewlike	build/lib.linux-x86_64-2.7/couchdb/client.py	/^def _call_viewlike(resource, options):$/;"	f
+_call_viewlike	couchdb/client.py	/^def _call_viewlike(resource, options):$/;"	f
+_changes	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def _changes(self, **opts):$/;"	m	class:Database
+_changes	couchdb/client.py	/^    def _changes(self, **opts):$/;"	m	class:Database
+_clean	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def _clean(self):$/;"	m	class:Cache
+_clean	couchdb/http.py	/^    def _clean(self):$/;"	m	class:Cache
+_create_test_docs	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def _create_test_docs(self, num):$/;"	m	class:CouchTests
+_create_test_docs	couchdb/tests/couch_tests.py	/^    def _create_test_docs(self, num):$/;"	m	class:CouchTests
+_current_part	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^    def _current_part():$/;"	f	function:read_multipart
+_current_part	couchdb/multipart.py	/^    def _current_part():$/;"	f	function:read_multipart
+_db	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^    _db = None$/;"	v	class:TempDatabaseMixin
+_db	couchdb/tests/testutil.py	/^    _db = None$/;"	v	class:TempDatabaseMixin
+_decode	build/lib.linux-x86_64-2.7/couchdb/json.py	/^        def _decode(string_, loads=json.loads):$/;"	f	function:_initialize._init_stdlib
+_decode	build/lib.linux-x86_64-2.7/couchdb/json.py	/^_decode = None$/;"	v
+_decode	couchdb/json.py	/^        def _decode(string_, loads=json.loads):$/;"	f	function:_initialize._init_stdlib
+_decode	couchdb/json.py	/^_decode = None$/;"	v
+_doc_resource	build/lib.linux-x86_64-2.7/couchdb/client.py	/^def _doc_resource(base, doc_id):$/;"	f
+_doc_resource	couchdb/client.py	/^def _doc_resource(base, doc_id):$/;"	f
+_encode	build/lib.linux-x86_64-2.7/couchdb/json.py	/^_encode = None$/;"	v
+_encode	couchdb/json.py	/^_encode = None$/;"	v
+_encode_view_options	build/lib.linux-x86_64-2.7/couchdb/client.py	/^def _encode_view_options(options):$/;"	f
+_encode_view_options	couchdb/client.py	/^def _encode_view_options(options):$/;"	f
+_exec	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def _exec(self, options):$/;"	m	class:PermanentView
+_exec	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def _exec(self, options):$/;"	m	class:TemporaryView
+_exec	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def _exec(self, options):$/;"	m	class:View
+_exec	couchdb/client.py	/^    def _exec(self, options):$/;"	m	class:PermanentView
+_exec	couchdb/client.py	/^    def _exec(self, options):$/;"	m	class:TemporaryView
+_exec	couchdb/client.py	/^    def _exec(self, options):$/;"	m	class:View
+_fetch	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def _fetch(self):$/;"	m	class:ViewResults
+_fetch	couchdb/client.py	/^    def _fetch(self):$/;"	m	class:ViewResults
+_get_id	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _get_id(self):$/;"	m	class:Document
+_get_id	couchdb/mapping.py	/^    def _get_id(self):$/;"	m	class:Document
+_init_cjson	build/lib.linux-x86_64-2.7/couchdb/json.py	/^    def _init_cjson():$/;"	f	function:_initialize
+_init_cjson	couchdb/json.py	/^    def _init_cjson():$/;"	f	function:_initialize
+_init_simplejson	build/lib.linux-x86_64-2.7/couchdb/json.py	/^    def _init_simplejson():$/;"	f	function:_initialize
+_init_simplejson	couchdb/json.py	/^    def _init_simplejson():$/;"	f	function:_initialize
+_init_stdlib	build/lib.linux-x86_64-2.7/couchdb/json.py	/^    def _init_stdlib():$/;"	f	function:_initialize
+_init_stdlib	couchdb/json.py	/^    def _init_stdlib():$/;"	f	function:_initialize
+_initialize	build/lib.linux-x86_64-2.7/couchdb/json.py	/^def _initialize():$/;"	f
+_initialize	couchdb/json.py	/^def _initialize():$/;"	f
+_initialized	build/lib.linux-x86_64-2.7/couchdb/json.py	/^_initialized = False$/;"	v
+_initialized	couchdb/json.py	/^_initialized = False$/;"	v
+_list	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def _list(self):$/;"	m	class:Indexes
+_list	couchdb/client.py	/^    def _list(self):$/;"	m	class:Indexes
+_log	build/lib.linux-x86_64-2.7/couchdb/view.py	/^    def _log(message):$/;"	f	function:run
+_log	couchdb/view.py	/^    def _log(message):$/;"	f	function:run
+_path_from_name	build/lib.linux-x86_64-2.7/couchdb/client.py	/^def _path_from_name(name, type):$/;"	f
+_path_from_name	couchdb/client.py	/^def _path_from_name(name, type):$/;"	f
+_release_conn	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def _release_conn(self):$/;"	m	class:ResponseBody
+_release_conn	couchdb/http.py	/^    def _release_conn(self):$/;"	m	class:ResponseBody
+_request	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def _request(self, method, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+_request	couchdb/http.py	/^    def _request(self, method, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+_request_json	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def _request_json(self, method, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+_request_json	couchdb/http.py	/^    def _request_json(self, method, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+_run	perftest.py	/^def _run(server, func):$/;"	f
+_send_output	build/lib.linux-x86_64-2.7/couchdb/http.py	/^        def _send_output(self, message_body=None):$/;"	m	class:NagleMixin
+_send_output	couchdb/http.py	/^        def _send_output(self, message_body=None):$/;"	m	class:NagleMixin
+_set_id	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _set_id(self, value):$/;"	m	class:Document
+_set_id	couchdb/mapping.py	/^    def _set_id(self, value):$/;"	m	class:Document
+_strip_decorators	build/lib.linux-x86_64-2.7/couchdb/design.py	/^def _strip_decorators(code):$/;"	f
+_strip_decorators	couchdb/design.py	/^def _strip_decorators(code):$/;"	f
+_to_json	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:DateField
+_to_json	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:DateTimeField
+_to_json	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:DecimalField
+_to_json	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:DictField
+_to_json	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:Field
+_to_json	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:ListField
+_to_json	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:Mapping
+_to_json	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:TimeField
+_to_json	couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:DateField
+_to_json	couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:DateTimeField
+_to_json	couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:DecimalField
+_to_json	couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:DictField
+_to_json	couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:Field
+_to_json	couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:ListField
+_to_json	couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:Mapping
+_to_json	couchdb/mapping.py	/^    def _to_json(self, value):$/;"	m	class:TimeField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    _to_python = bool$/;"	v	class:BooleanField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    _to_python = float$/;"	v	class:FloatField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    _to_python = int$/;"	v	class:IntegerField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    _to_python = util.ltype$/;"	v	class:LongField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    _to_python = util.utype$/;"	v	class:TextField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:DateField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:DateTimeField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:DecimalField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:DictField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:Field
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:ListField
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:Mapping
+_to_python	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:TimeField
+_to_python	couchdb/mapping.py	/^    _to_python = bool$/;"	v	class:BooleanField
+_to_python	couchdb/mapping.py	/^    _to_python = float$/;"	v	class:FloatField
+_to_python	couchdb/mapping.py	/^    _to_python = int$/;"	v	class:IntegerField
+_to_python	couchdb/mapping.py	/^    _to_python = util.ltype$/;"	v	class:LongField
+_to_python	couchdb/mapping.py	/^    _to_python = util.utype$/;"	v	class:TextField
+_to_python	couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:DateField
+_to_python	couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:DateTimeField
+_to_python	couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:DecimalField
+_to_python	couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:DictField
+_to_python	couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:Field
+_to_python	couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:ListField
+_to_python	couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:Mapping
+_to_python	couchdb/mapping.py	/^    def _to_python(self, value):$/;"	m	class:TimeField
+_try_request	build/lib.linux-x86_64-2.7/couchdb/http.py	/^        def _try_request():$/;"	f	function:Session.request
+_try_request	couchdb/http.py	/^        def _try_request():$/;"	f	function:Session.request
+_try_request_with_retries	build/lib.linux-x86_64-2.7/couchdb/http.py	/^        def _try_request_with_retries(retries):$/;"	f	function:Session.request
+_try_request_with_retries	couchdb/http.py	/^        def _try_request_with_retries(retries):$/;"	f	function:Session.request
+_using	build/lib.linux-x86_64-2.7/couchdb/json.py	/^_using = os.environ.get('COUCHDB_PYTHON_JSON')$/;"	v
+_using	couchdb/json.py	/^_using = os.environ.get('COUCHDB_PYTHON_JSON')$/;"	v
+_wrap_row	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def _wrap_row(cls, row):$/;"	m	class:Document
+_wrap_row	couchdb/mapping.py	/^    def _wrap_row(cls, row):$/;"	m	class:Document
+_write_headers	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^    def _write_headers(self, headers):$/;"	m	class:MultipartWriter
+_write_headers	couchdb/multipart.py	/^    def _write_headers(self, headers):$/;"	m	class:MultipartWriter
+_writejson	build/lib.linux-x86_64-2.7/couchdb/view.py	/^    def _writejson(obj):$/;"	f	function:run
+_writejson	couchdb/view.py	/^    def _writejson(obj):$/;"	f	function:run
+add	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^    def add(self, mimetype, content, headers=None):$/;"	m	class:MultipartWriter
+add	couchdb/multipart.py	/^    def add(self, mimetype, content, headers=None):$/;"	m	class:MultipartWriter
+add_fun	build/lib.linux-x86_64-2.7/couchdb/view.py	/^    def add_fun(string):$/;"	f	function:run
+add_fun	couchdb/view.py	/^    def add_fun(string):$/;"	f	function:run
+add_user	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def add_user(self, name, password, roles=None):$/;"	m	class:Server
+add_user	couchdb/client.py	/^    def add_user(self, name, password, roles=None):$/;"	m	class:Server
+all_map_func	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^all_map_func = 'function(doc) { emit(doc._id, doc); }'$/;"	v
+all_map_func	couchdb/tests/mapping.py	/^all_map_func = 'function(doc) { emit(doc._id, doc); }'$/;"	v
+append	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def append(self, *args, **kwargs):$/;"	m	class:ListField.Proxy
+append	couchdb/mapping.py	/^        def append(self, *args, **kwargs):$/;"	m	class:ListField.Proxy
+author	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^                    author = mapping.TextField(),$/;"	v	class:ListFieldTestCase.test_to_json.Post
+author	couchdb/tests/mapping.py	/^                    author = mapping.TextField(),$/;"	v	class:ListFieldTestCase.test_to_json.Post
+author	setup.py	/^    author = 'Christopher Lenz',$/;"	v
+author_email	setup.py	/^    author_email = 'cmlenz@gmx.de',$/;"	v
+bad_directory	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^        def bad_directory():$/;"	f	function:LoaderTestCase.test_bad_directory
+bad_directory	couchdb/tests/loader.py	/^        def bad_directory():$/;"	f	function:LoaderTestCase.test_bad_directory
+basic_auth	build/lib.linux-x86_64-2.7/couchdb/http.py	/^def basic_auth(credentials):$/;"	f
+basic_auth	couchdb/http.py	/^def basic_auth(credentials):$/;"	f
+btype	build/lib.linux-x86_64-2.7/couchdb/util2.py	/^btype = str$/;"	v
+btype	build/lib.linux-x86_64-2.7/couchdb/util3.py	/^btype = bytes$/;"	v
+btype	couchdb/util2.py	/^btype = str$/;"	v
+btype	couchdb/util3.py	/^btype = bytes$/;"	v
+build	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def build(cls, **d):$/;"	m	class:Mapping
+build	couchdb/mapping.py	/^    def build(cls, **d):$/;"	m	class:Mapping
+cache_sort	build/lib.linux-x86_64-2.7/couchdb/http.py	/^def cache_sort(i):$/;"	f
+cache_sort	couchdb/http.py	/^def cache_sort(i):$/;"	f
+changes	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def changes(self, **opts):$/;"	m	class:Database
+changes	couchdb/client.py	/^    def changes(self, **opts):$/;"	m	class:Database
+check_output	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^    def check_output(self, want, got, optionflags):$/;"	m	class:Py23DocChecker
+check_output	couchdb/tests/testutil.py	/^    def check_output(self, want, got, optionflags):$/;"	m	class:Py23DocChecker
+classifiers	setup.py	/^    classifiers = [$/;"	v
+cleanup	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def cleanup(self):$/;"	m	class:Database
+cleanup	couchdb/client.py	/^    def cleanup(self):$/;"	m	class:Database
+clobber	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^        def clobber():$/;"	f	function:LoaderTestCase.test_clobber_1
+clobber	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^        def clobber():$/;"	f	function:LoaderTestCase.test_clobber_2
+clobber	couchdb/tests/loader.py	/^        def clobber():$/;"	f	function:LoaderTestCase.test_clobber_1
+clobber	couchdb/tests/loader.py	/^        def clobber():$/;"	f	function:LoaderTestCase.test_clobber_2
+close	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def close(self):$/;"	m	class:ResponseBody
+close	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^    def close(self):$/;"	m	class:MultipartWriter
+close	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^            def close(self):$/;"	m	class:ResponseBodyTestCase.test_double_iteration_over_same_response_body.TestHttpResp
+close	couchdb/http.py	/^    def close(self):$/;"	m	class:ResponseBody
+close	couchdb/multipart.py	/^    def close(self):$/;"	m	class:MultipartWriter
+close	couchdb/tests/couchhttp.py	/^            def close(self):$/;"	m	class:ResponseBodyTestCase.test_double_iteration_over_same_response_body.TestHttpResp
+comments	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            comments = mapping.ListField(mapping.DictField($/;"	v	class:ListFieldTestCase.test_to_json.Post
+comments	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            comments = mapping.ListField(mapping.DictField)$/;"	v	class:ListFieldTestCase.test_proxy_iter_dict.Post
+comments	couchdb/tests/mapping.py	/^            comments = mapping.ListField(mapping.DictField($/;"	v	class:ListFieldTestCase.test_to_json.Post
+comments	couchdb/tests/mapping.py	/^            comments = mapping.ListField(mapping.DictField)$/;"	v	class:ListFieldTestCase.test_proxy_iter_dict.Post
+commit	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def commit(self):$/;"	m	class:Database
+commit	couchdb/client.py	/^    def commit(self):$/;"	m	class:Database
+compact	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def compact(self, ddoc=None):$/;"	m	class:Database
+compact	couchdb/client.py	/^    def compact(self, ddoc=None):$/;"	m	class:Database
+config	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def config(self):$/;"	m	class:Server
+config	couchdb/client.py	/^    def config(self):$/;"	m	class:Server
+content	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^                    content = mapping.TextField(),$/;"	v	class:ListFieldTestCase.test_to_json.Post
+content	couchdb/tests/mapping.py	/^                    content = mapping.TextField(),$/;"	v	class:ListFieldTestCase.test_to_json.Post
+copy	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def copy(self, src, dest):$/;"	m	class:Database
+copy	couchdb/client.py	/^    def copy(self, src, dest):$/;"	m	class:Database
+copyright	doc/conf.py	/^copyright = '2010, Dirkjan Ochtman'$/;"	v
+count	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def count(self, value):$/;"	m	class:ListField.Proxy
+count	couchdb/mapping.py	/^        def count(self, value):$/;"	m	class:ListField.Proxy
+create	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def create(self, data):$/;"	m	class:Database
+create	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def create(self, name):$/;"	m	class:Server
+create	couchdb/client.py	/^    def create(self, data):$/;"	m	class:Database
+create	couchdb/client.py	/^    def create(self, name):$/;"	m	class:Server
+create_bulk_docs	perftest.py	/^def create_bulk_docs(db):$/;"	f
+create_doc	perftest.py	/^def create_doc(db):$/;"	f
+d	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            d = mapping.DictField()$/;"	v	class:DocumentTestCase.test_mutable_fields.Test
+d	couchdb/tests/mapping.py	/^            d = mapping.DictField()$/;"	v	class:DocumentTestCase.test_mutable_fields.Test
+db	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^    def db(self):$/;"	m	class:TempDatabaseMixin
+db	couchdb/tests/testutil.py	/^    def db(self):$/;"	m	class:TempDatabaseMixin
+decode	build/lib.linux-x86_64-2.7/couchdb/json.py	/^def decode(string):$/;"	f
+decode	couchdb/json.py	/^def decode(string):$/;"	f
+define	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def define(cls, design, name=None, language='python', wrapper=DEFAULT,$/;"	m	class:ViewField
+define	couchdb/mapping.py	/^    def define(cls, design, name=None, language='python', wrapper=DEFAULT,$/;"	m	class:ViewField
+del_db	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^    def del_db(self, name):$/;"	m	class:TempDatabaseMixin
+del_db	couchdb/tests/testutil.py	/^    def del_db(self, name):$/;"	m	class:TempDatabaseMixin
+delete	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def delete(self, doc):$/;"	m	class:Database
+delete	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def delete(self, name):$/;"	m	class:Server
+delete	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def delete(self, path=None, headers=None, **params):$/;"	m	class:Resource
+delete	couchdb/client.py	/^    def delete(self, doc):$/;"	m	class:Database
+delete	couchdb/client.py	/^    def delete(self, name):$/;"	m	class:Server
+delete	couchdb/http.py	/^    def delete(self, path=None, headers=None, **params):$/;"	m	class:Resource
+delete_attachment	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def delete_attachment(self, doc, filename):$/;"	m	class:Database
+delete_attachment	couchdb/client.py	/^    def delete_attachment(self, doc, filename):$/;"	m	class:Database
+delete_json	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def delete_json(self, path=None, headers=None, **params):$/;"	m	class:Resource
+delete_json	couchdb/http.py	/^    def delete_json(self, path=None, headers=None, **params):$/;"	m	class:Resource
+description	setup.py	/^    description = 'Python library for working with CouchDB',$/;"	v
+design_doc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    design_doc = {'_id': '_design\/foo',$/;"	v	class:ShowListTestCase
+design_doc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    design_doc = {'_id': '_design\/foo',$/;"	v	class:UpdateHandlerTestCase
+design_doc	couchdb/tests/client.py	/^    design_doc = {'_id': '_design\/foo',$/;"	v	class:ShowListTestCase
+design_doc	couchdb/tests/client.py	/^    design_doc = {'_id': '_design\/foo',$/;"	v	class:UpdateHandlerTestCase
+dir	doc/conf.py	/^dir = os.path.dirname(__file__)$/;"	v
+directory	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^    directory = os.path.join(os.path.dirname(__file__), '_loader')$/;"	v	class:LoaderTestCase
+directory	couchdb/tests/loader.py	/^    directory = os.path.join(os.path.dirname(__file__), '_loader')$/;"	v	class:LoaderTestCase
+disable_ssl_verification	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def disable_ssl_verification(self):$/;"	m	class:Session
+disable_ssl_verification	couchdb/http.py	/^    def disable_ssl_verification(self):$/;"	m	class:Session
+doc	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def doc(self):$/;"	m	class:Row
+doc	couchdb/client.py	/^    def doc(self):$/;"	m	class:Row
+docfromnum	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def docfromnum(self, num):$/;"	m	class:ViewIterationTestCase
+docfromnum	couchdb/tests/client.py	/^    def docfromnum(self, num):$/;"	m	class:ViewIterationTestCase
+docfromrow	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def docfromrow(self, row):$/;"	m	class:ViewIterationTestCase
+docfromrow	couchdb/tests/client.py	/^    def docfromrow(self, row):$/;"	m	class:ViewIterationTestCase
+doctest_suite	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^def doctest_suite(mod):$/;"	f
+doctest_suite	couchdb/tests/testutil.py	/^def doctest_suite(mod):$/;"	f
+dump_db	build/lib.linux-x86_64-2.7/couchdb/tools/dump.py	/^def dump_db(dburl, username=None, password=None, boundary=None,$/;"	f
+dump_db	couchdb/tools/dump.py	/^def dump_db(dburl, username=None, password=None, boundary=None,$/;"	f
+dump_docs	build/lib.linux-x86_64-2.7/couchdb/tools/dump.py	/^def dump_docs(envelope, db, docs):$/;"	f
+dump_docs	couchdb/tools/dump.py	/^def dump_docs(envelope, db, docs):$/;"	f
+encode	build/lib.linux-x86_64-2.7/couchdb/json.py	/^def encode(obj):$/;"	f
+encode	couchdb/json.py	/^def encode(obj):$/;"	f
+endheaders	build/lib.linux-x86_64-2.7/couchdb/http.py	/^        def endheaders(self, message_body=None):$/;"	m	class:NagleMixin
+endheaders	couchdb/http.py	/^        def endheaders(self, message_body=None):$/;"	m	class:NagleMixin
+error	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def error(self):$/;"	m	class:Row
+error	couchdb/client.py	/^    def error(self):$/;"	m	class:Row
+exclude_trees	doc/conf.py	/^exclude_trees = ['build']$/;"	v
+expected	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^expected = {$/;"	v
+expected	couchdb/tests/loader.py	/^expected = {$/;"	v
+explain	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def explain(self, mango_query):$/;"	m	class:Database
+explain	couchdb/client.py	/^    def explain(self, mango_query):$/;"	m	class:Database
+extend	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def extend(self, list):$/;"	m	class:ListField.Proxy
+extend	couchdb/mapping.py	/^        def extend(self, list):$/;"	m	class:ListField.Proxy
+extensions	doc/conf.py	/^extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest']$/;"	v
+extract_credentials	build/lib.linux-x86_64-2.7/couchdb/http.py	/^def extract_credentials(url):$/;"	f
+extract_credentials	couchdb/http.py	/^def extract_credentials(url):$/;"	f
+find	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def find(self, mango_query, wrapper=None):$/;"	m	class:Database
+find	couchdb/client.py	/^    def find(self, mango_query, wrapper=None):$/;"	m	class:Database
+findpath	build/lib.linux-x86_64-2.7/couchdb/tools/replicate.py	/^def findpath(parser, s):$/;"	f
+findpath	couchdb/tools/replicate.py	/^def findpath(parser, s):$/;"	f
+funcode	build/lib.linux-x86_64-2.7/couchdb/util2.py	/^def funcode(fun):$/;"	f
+funcode	build/lib.linux-x86_64-2.7/couchdb/util3.py	/^def funcode(fun):$/;"	f
+funcode	couchdb/util2.py	/^def funcode(fun):$/;"	f
+funcode	couchdb/util3.py	/^def funcode(fun):$/;"	f
+get	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def get(self, id, default=None, **options):$/;"	m	class:Database
+get	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def get(self, path=None, headers=None, **params):$/;"	m	class:Resource
+get	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def get(self, url):$/;"	m	class:Cache
+get	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def get(self, url):$/;"	m	class:ConnectionPool
+get	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def get(self, name, default=None):$/;"	m	class:Mapping
+get	couchdb/client.py	/^    def get(self, id, default=None, **options):$/;"	m	class:Database
+get	couchdb/http.py	/^    def get(self, path=None, headers=None, **params):$/;"	m	class:Resource
+get	couchdb/http.py	/^    def get(self, url):$/;"	m	class:Cache
+get	couchdb/http.py	/^    def get(self, url):$/;"	m	class:ConnectionPool
+get	couchdb/mapping.py	/^    def get(self, name, default=None):$/;"	m	class:Mapping
+get_attachment	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def get_attachment(self, id_or_doc, filename, default=None):$/;"	m	class:Database
+get_attachment	couchdb/client.py	/^    def get_attachment(self, id_or_doc, filename, default=None):$/;"	m	class:Database
+get_doc	build/lib.linux-x86_64-2.7/couchdb/design.py	/^    def get_doc(self, db):$/;"	m	class:ViewDefinition
+get_doc	couchdb/design.py	/^    def get_doc(self, db):$/;"	m	class:ViewDefinition
+get_json	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def get_json(self, path=None, headers=None, **params):$/;"	m	class:Resource
+get_json	couchdb/http.py	/^    def get_json(self, path=None, headers=None, **params):$/;"	m	class:Resource
+has_setuptools	setup.py	/^    has_setuptools = False$/;"	v
+has_setuptools	setup.py	/^    has_setuptools = True$/;"	v
+head	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def head(self, path=None, headers=None, **params):$/;"	m	class:Resource
+head	couchdb/http.py	/^    def head(self, path=None, headers=None, **params):$/;"	m	class:Resource
+html_static_path	doc/conf.py	/^html_static_path = ['static']$/;"	v
+html_theme	doc/conf.py	/^html_theme = 'alabaster'$/;"	v
+htmlhelp_basename	doc/conf.py	/^htmlhelp_basename = 'couchdb-pythondoc'$/;"	v
+id	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def id(self):$/;"	m	class:Document
+id	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def id(self):$/;"	m	class:Row
+id	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    id = property(_get_id, _set_id, doc='The document ID')$/;"	v	class:Document
+id	couchdb/client.py	/^    def id(self):$/;"	m	class:Document
+id	couchdb/client.py	/^    def id(self):$/;"	m	class:Row
+id	couchdb/mapping.py	/^    id = property(_get_id, _set_id, doc='The document ID')$/;"	v	class:Document
+include_docs	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^                                              include_docs=True)$/;"	v	class:WrappingTestCase.Item
+include_docs	couchdb/tests/mapping.py	/^                                              include_docs=True)$/;"	v	class:WrappingTestCase.Item
+index	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def index(self):$/;"	m	class:Database
+index	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def index(self, value):$/;"	m	class:ListField.Proxy
+index	couchdb/client.py	/^    def index(self):$/;"	m	class:Database
+index	couchdb/mapping.py	/^        def index(self, value):$/;"	m	class:ListField.Proxy
+info	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def info(self, ddoc=None):$/;"	m	class:Database
+info	couchdb/client.py	/^    def info(self, ddoc=None):$/;"	m	class:Database
+insert	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def insert(self, idx, *args, **kwargs):$/;"	m	class:ListField.Proxy
+insert	couchdb/mapping.py	/^        def insert(self, idx, *args, **kwargs):$/;"	m	class:ListField.Proxy
+isclosed	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^            def isclosed(self):$/;"	m	class:ResponseBodyTestCase.test_close.TestStream
+isclosed	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^            def isclosed(self):$/;"	m	class:ResponseBodyTestCase.test_double_iteration_over_same_response_body.TestHttpResp
+isclosed	couchdb/tests/couchhttp.py	/^            def isclosed(self):$/;"	m	class:ResponseBodyTestCase.test_close.TestStream
+isclosed	couchdb/tests/couchhttp.py	/^            def isclosed(self):$/;"	m	class:ResponseBodyTestCase.test_double_iteration_over_same_response_body.TestHttpResp
+items	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def items(self):$/;"	m	class:Document
+items	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^            def items(self):$/;"	m	class:DatabaseTestCase.test_copy_doc_dest_dictlike.DictLike
+items	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^            def items(self):$/;"	m	class:DatabaseTestCase.test_copy_doc_src_dictlike.DictLike
+items	couchdb/mapping.py	/^    def items(self):$/;"	m	class:Document
+items	couchdb/tests/client.py	/^            def items(self):$/;"	m	class:DatabaseTestCase.test_copy_doc_dest_dictlike.DictLike
+items	couchdb/tests/client.py	/^            def items(self):$/;"	m	class:DatabaseTestCase.test_copy_doc_src_dictlike.DictLike
+iterchunks	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def iterchunks(self):$/;"	m	class:ResponseBody
+iterchunks	couchdb/http.py	/^    def iterchunks(self):$/;"	m	class:ResponseBody
+iterview	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def iterview(self, name, batch, wrapper=None, **options):$/;"	m	class:Database
+iterview	couchdb/client.py	/^    def iterview(self, name, batch, wrapper=None, **options):$/;"	m	class:Database
+key	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def key(self):$/;"	m	class:Row
+key	couchdb/client.py	/^    def key(self):$/;"	m	class:Row
+latex_documents	doc/conf.py	/^latex_documents = [$/;"	v
+license	setup.py	/^    license = 'BSD',$/;"	v
+list	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def list(self, name, view, **options):$/;"	m	class:Database
+list	couchdb/client.py	/^    def list(self, name, view, **options):$/;"	m	class:Database
+load	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def load(cls, db, id):$/;"	m	class:Document
+load	couchdb/mapping.py	/^    def load(cls, db, id):$/;"	m	class:Document
+load_db	build/lib.linux-x86_64-2.7/couchdb/tools/load.py	/^def load_db(fileobj, dburl, username=None, password=None, ignore_errors=False):$/;"	f
+load_db	couchdb/tools/load.py	/^def load_db(fileobj, dburl, username=None, password=None, ignore_errors=False):$/;"	f
+load_design_doc	build/lib.linux-x86_64-2.7/couchdb/loader.py	/^def load_design_doc(directory, strip=False, predicate=lambda x: True):$/;"	f
+load_design_doc	couchdb/loader.py	/^def load_design_doc(directory, strip=False, predicate=lambda x: True):$/;"	f
+log	build/lib.linux-x86_64-2.7/couchdb/view.py	/^log = logging.getLogger('couchdb.view')$/;"	v
+log	couchdb/view.py	/^log = logging.getLogger('couchdb.view')$/;"	v
+login	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def login(self, name, password):$/;"	m	class:Server
+login	couchdb/client.py	/^    def login(self, name, password):$/;"	m	class:Server
+logout	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def logout(self, token):$/;"	m	class:Server
+logout	couchdb/client.py	/^    def logout(self, token):$/;"	m	class:Server
+ltype	build/lib.linux-x86_64-2.7/couchdb/util2.py	/^ltype = long$/;"	v
+ltype	build/lib.linux-x86_64-2.7/couchdb/util3.py	/^ltype = int$/;"	v
+ltype	couchdb/util2.py	/^ltype = long$/;"	v
+ltype	couchdb/util3.py	/^ltype = int$/;"	v
+main	build/lib.linux-x86_64-2.7/couchdb/loader.py	/^def main():$/;"	f
+main	build/lib.linux-x86_64-2.7/couchdb/tools/dump.py	/^def main():$/;"	f
+main	build/lib.linux-x86_64-2.7/couchdb/tools/load.py	/^def main():$/;"	f
+main	build/lib.linux-x86_64-2.7/couchdb/tools/replicate.py	/^def main():$/;"	f
+main	build/lib.linux-x86_64-2.7/couchdb/view.py	/^def main():$/;"	f
+main	couchdb/loader.py	/^def main():$/;"	f
+main	couchdb/tools/dump.py	/^def main():$/;"	f
+main	couchdb/tools/load.py	/^def main():$/;"	f
+main	couchdb/tools/replicate.py	/^def main():$/;"	f
+main	couchdb/view.py	/^def main():$/;"	f
+main	perftest.py	/^def main():$/;"	f
+maintainer	setup.py	/^    maintainer = 'Dirkjan Ochtman',$/;"	v
+maintainer_email	setup.py	/^    maintainer_email = 'dirkjan@ochtman.nl',$/;"	v
+map_doc	build/lib.linux-x86_64-2.7/couchdb/view.py	/^    def map_doc(doc):$/;"	f	function:run
+map_doc	couchdb/view.py	/^    def map_doc(doc):$/;"	f	function:run
+map_fun	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^        def map_fun(doc):$/;"	f	function:ViewTestCase.test_view_function_objects
+map_fun	couchdb/tests/client.py	/^        def map_fun(doc):$/;"	f	function:ViewTestCase.test_view_function_objects
+master_doc	doc/conf.py	/^master_doc = 'index'$/;"	v
+msg	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^            msg = {'transfer-encoding': 'chunked'}$/;"	v	class:ResponseBodyTestCase.test_double_iteration_over_same_response_body.TestHttpResp
+msg	couchdb/tests/couchhttp.py	/^            msg = {'transfer-encoding': 'chunked'}$/;"	v	class:ResponseBodyTestCase.test_double_iteration_over_same_response_body.TestHttpResp
+name	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def name(self):$/;"	m	class:Database
+name	couchdb/client.py	/^    def name(self):$/;"	m	class:Database
+name	setup.py	/^    name = 'CouchDB',$/;"	v
+num_docs	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    num_docs = 100$/;"	v	class:ViewIterationTestCase
+num_docs	couchdb/tests/client.py	/^    num_docs = 100$/;"	v	class:ViewIterationTestCase
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_mutable_fields.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_append.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_append_kwargs.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_contains.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_count.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_index.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_insert.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_insert_kwargs.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_iter.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_pop.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_remove.Thing
+numbers	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_slices.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_mutable_fields.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_append.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_append_kwargs.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_contains.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_count.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_index.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_insert.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_insert_kwargs.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_iter.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_pop.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_remove.Thing
+numbers	couchdb/tests/mapping.py	/^            numbers = mapping.ListField(mapping.DecimalField)$/;"	v	class:ListFieldTestCase.test_proxy_slices.Thing
+offset	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def offset(self):$/;"	m	class:ViewResults
+offset	couchdb/client.py	/^    def offset(self):$/;"	m	class:ViewResults
+open	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^    def open(self, headers=None, subtype='mixed', boundary=None):$/;"	m	class:MultipartWriter
+open	couchdb/multipart.py	/^    def open(self, headers=None, subtype='mixed', boundary=None):$/;"	m	class:MultipartWriter
+packages	setup.py	/^    packages = ['couchdb', 'couchdb.tools', 'couchdb.tests'],$/;"	v
+pop	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def pop(self, *args):$/;"	m	class:ListField.Proxy
+pop	couchdb/mapping.py	/^        def pop(self, *args):$/;"	m	class:ListField.Proxy
+post	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def post(self, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+post	couchdb/http.py	/^    def post(self, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+post_json	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def post_json(self, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+post_json	couchdb/http.py	/^    def post_json(self, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+project	doc/conf.py	/^project = 'couchdb-python'$/;"	v
+purge	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def purge(self, docs):$/;"	m	class:Database
+purge	couchdb/client.py	/^    def purge(self, docs):$/;"	m	class:Database
+put	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def put(self, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+put	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def put(self, url, response):$/;"	m	class:Cache
+put	couchdb/http.py	/^    def put(self, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+put	couchdb/http.py	/^    def put(self, url, response):$/;"	m	class:Cache
+put_attachment	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def put_attachment(self, doc, content, filename=None, content_type=None):$/;"	m	class:Database
+put_attachment	couchdb/client.py	/^    def put_attachment(self, doc, content, filename=None, content_type=None):$/;"	m	class:Database
+put_json	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def put_json(self, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+put_json	couchdb/http.py	/^    def put_json(self, path=None, body=None, headers=None, **params):$/;"	m	class:Resource
+pyexec	build/lib.linux-x86_64-2.7/couchdb/util.py	/^def pyexec(code, gns, lns):$/;"	f
+pyexec	couchdb/util.py	/^def pyexec(code, gns, lns):$/;"	f
+pygments_style	doc/conf.py	/^pygments_style = 'sphinx'$/;"	v
+query	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def query(self, map_fun, reduce_fun=None, language='javascript',$/;"	m	class:Database
+query	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def query(cls, db, map_fun, reduce_fun, language='javascript', **options):$/;"	m	class:Document
+query	couchdb/client.py	/^    def query(self, map_fun, reduce_fun=None, language='javascript',$/;"	m	class:Database
+query	couchdb/mapping.py	/^    def query(cls, db, map_fun, reduce_fun, language='javascript', **options):$/;"	m	class:Document
+quote	build/lib.linux-x86_64-2.7/couchdb/http.py	/^def quote(string, safe=''):$/;"	f
+quote	couchdb/http.py	/^def quote(string, safe=''):$/;"	f
+read	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def read(self, size=None):$/;"	m	class:ResponseBody
+read	couchdb/http.py	/^    def read(self, size=None):$/;"	m	class:ResponseBody
+read_multipart	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^def read_multipart(fileobj, boundary=None):$/;"	f
+read_multipart	couchdb/multipart.py	/^def read_multipart(fileobj, boundary=None):$/;"	f
+reduce	build/lib.linux-x86_64-2.7/couchdb/view.py	/^    def reduce(*cmd, **kwargs):$/;"	f	function:run
+reduce	couchdb/view.py	/^    def reduce(*cmd, **kwargs):$/;"	f	function:run
+reduce_fun	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^        def reduce_fun(keys, values):$/;"	f	function:ViewTestCase.test_view_function_objects
+reduce_fun	couchdb/tests/client.py	/^        def reduce_fun(keys, values):$/;"	f	function:ViewTestCase.test_view_function_objects
+release	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def release(self, url, conn):$/;"	m	class:ConnectionPool
+release	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^            def release(self, url, conn):$/;"	m	class:ResponseBodyTestCase.test_close.ConnPool
+release	couchdb/http.py	/^    def release(self, url, conn):$/;"	m	class:ConnectionPool
+release	couchdb/tests/couchhttp.py	/^            def release(self, url, conn):$/;"	m	class:ResponseBodyTestCase.test_close.ConnPool
+release	doc/conf.py	/^release = '1.0'$/;"	v
+remove	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def remove(self, url):$/;"	m	class:Cache
+remove	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def remove(self, value):$/;"	m	class:ListField.Proxy
+remove	couchdb/http.py	/^    def remove(self, url):$/;"	m	class:Cache
+remove	couchdb/mapping.py	/^        def remove(self, value):$/;"	m	class:ListField.Proxy
+remove_user	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def remove_user(self, name):$/;"	m	class:Server
+remove_user	couchdb/client.py	/^    def remove_user(self, name):$/;"	m	class:Server
+replicate	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def replicate(self, source, target, **options):$/;"	m	class:Server
+replicate	couchdb/client.py	/^    def replicate(self, source, target, **options):$/;"	m	class:Server
+request	build/lib.linux-x86_64-2.7/couchdb/http.py	/^    def request(self, method, url, body=None, headers=None, credentials=None,$/;"	m	class:Session
+request	couchdb/http.py	/^    def request(self, method, url, body=None, headers=None, credentials=None,$/;"	m	class:Session
+rereduce	build/lib.linux-x86_64-2.7/couchdb/view.py	/^    def rereduce(*cmd):$/;"	f	function:run
+rereduce	couchdb/view.py	/^    def rereduce(*cmd):$/;"	f	function:run
+reset	build/lib.linux-x86_64-2.7/couchdb/view.py	/^    def reset(config=None):$/;"	f	function:run
+reset	couchdb/view.py	/^    def reset(config=None):$/;"	f	function:run
+rev	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def rev(self):$/;"	m	class:Document
+rev	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def rev(self):$/;"	m	class:Document
+rev	couchdb/client.py	/^    def rev(self):$/;"	m	class:Document
+rev	couchdb/mapping.py	/^    def rev(self):$/;"	m	class:Document
+revisions	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def revisions(self, id, **options):$/;"	m	class:Database
+revisions	couchdb/client.py	/^    def revisions(self, id, **options):$/;"	m	class:Database
+rows	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def rows(self):$/;"	m	class:ViewResults
+rows	couchdb/client.py	/^    def rows(self):$/;"	m	class:ViewResults
+run	build/lib.linux-x86_64-2.7/couchdb/view.py	/^def run(input=sys.stdin, output=sys.stdout):$/;"	f
+run	couchdb/view.py	/^def run(input=sys.stdin, output=sys.stdout):$/;"	f
+save	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def save(self, doc, **options):$/;"	m	class:Database
+save	couchdb/client.py	/^    def save(self, doc, **options):$/;"	m	class:Database
+security	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def security(self):$/;"	m	class:Database
+security	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def security(self, doc):$/;"	m	class:Database
+security	couchdb/client.py	/^    def security(self):$/;"	m	class:Database
+security	couchdb/client.py	/^    def security(self, doc):$/;"	m	class:Database
+setUp	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def setUp(self):$/;"	m	class:ShowListTestCase
+setUp	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def setUp(self):$/;"	m	class:UpdateHandlerTestCase
+setUp	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def setUp(self):$/;"	m	class:ViewIterationTestCase
+setUp	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def setUp(self):$/;"	m	class:WrappingTestCase
+setUp	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^    def setUp(self):$/;"	m	class:TempDatabaseMixin
+setUp	couchdb/tests/client.py	/^    def setUp(self):$/;"	m	class:ShowListTestCase
+setUp	couchdb/tests/client.py	/^    def setUp(self):$/;"	m	class:UpdateHandlerTestCase
+setUp	couchdb/tests/client.py	/^    def setUp(self):$/;"	m	class:ViewIterationTestCase
+setUp	couchdb/tests/mapping.py	/^    def setUp(self):$/;"	m	class:WrappingTestCase
+setUp	couchdb/tests/testutil.py	/^    def setUp(self):$/;"	m	class:TempDatabaseMixin
+setdefault	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def setdefault(self, name, default):$/;"	m	class:Mapping
+setdefault	couchdb/mapping.py	/^    def setdefault(self, name, default):$/;"	m	class:Mapping
+setuptools_options	setup.py	/^    setuptools_options = {$/;"	v
+setuptools_options	setup.py	/^    setuptools_options = {}$/;"	v
+show	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def show(self, name, docid=None, **options):$/;"	m	class:Database
+show	couchdb/client.py	/^    def show(self, name, docid=None, **options):$/;"	m	class:Database
+source_suffix	doc/conf.py	/^source_suffix = '.rst'$/;"	v
+stats	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def stats(self, name=None):$/;"	m	class:Server
+stats	couchdb/client.py	/^    def stats(self, name=None):$/;"	m	class:Server
+store	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def store(self, db):$/;"	m	class:Document
+store	couchdb/mapping.py	/^    def store(self, db):$/;"	m	class:Document
+strbase	build/lib.linux-x86_64-2.7/couchdb/util2.py	/^strbase = str, bytes, unicode$/;"	v
+strbase	build/lib.linux-x86_64-2.7/couchdb/util3.py	/^strbase = str, bytes$/;"	v
+strbase	couchdb/util2.py	/^strbase = str, bytes, unicode$/;"	v
+strbase	couchdb/util3.py	/^strbase = str, bytes$/;"	v
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/__main__.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/design.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/package.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/tools.py	/^def suite():$/;"	f
+suite	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^def suite():$/;"	f
+suite	couchdb/tests/__main__.py	/^def suite():$/;"	f
+suite	couchdb/tests/client.py	/^def suite():$/;"	f
+suite	couchdb/tests/couch_tests.py	/^def suite():$/;"	f
+suite	couchdb/tests/couchhttp.py	/^def suite():$/;"	f
+suite	couchdb/tests/design.py	/^def suite():$/;"	f
+suite	couchdb/tests/loader.py	/^def suite():$/;"	f
+suite	couchdb/tests/mapping.py	/^def suite():$/;"	f
+suite	couchdb/tests/multipart.py	/^def suite():$/;"	f
+suite	couchdb/tests/package.py	/^def suite():$/;"	f
+suite	couchdb/tests/tools.py	/^def suite():$/;"	f
+suite	couchdb/tests/view.py	/^def suite():$/;"	f
+sync	build/lib.linux-x86_64-2.7/couchdb/design.py	/^    def sync(self, db):$/;"	m	class:ViewDefinition
+sync	couchdb/design.py	/^    def sync(self, db):$/;"	m	class:ViewDefinition
+sync_many	build/lib.linux-x86_64-2.7/couchdb/design.py	/^    def sync_many(db, views, remove_missing=False, callback=None):$/;"	m	class:ViewDefinition
+sync_many	couchdb/design.py	/^    def sync_many(db, views, remove_missing=False, callback=None):$/;"	m	class:ViewDefinition
+tasks	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def tasks(self):$/;"	m	class:Server
+tasks	couchdb/client.py	/^    def tasks(self):$/;"	m	class:Server
+tearDown	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^    def tearDown(self):$/;"	m	class:TempDatabaseMixin
+tearDown	couchdb/tests/testutil.py	/^    def tearDown(self):$/;"	m	class:TempDatabaseMixin
+temp_db	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^    def temp_db(self):$/;"	m	class:TempDatabaseMixin
+temp_db	couchdb/tests/testutil.py	/^    def temp_db(self):$/;"	m	class:TempDatabaseMixin
+temp_dbs	build/lib.linux-x86_64-2.7/couchdb/tests/testutil.py	/^    temp_dbs = None$/;"	v	class:TempDatabaseMixin
+temp_dbs	couchdb/tests/testutil.py	/^    temp_dbs = None$/;"	v	class:TempDatabaseMixin
+templates_path	doc/conf.py	/^templates_path = ['templates']$/;"	v
+test_235_unicode_server	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_235_unicode_server(self):$/;"	m	class:ServerTestCase
+test_235_unicode_server	couchdb/tests/client.py	/^    def test_235_unicode_server(self):$/;"	m	class:ServerTestCase
+test_add_fun	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_add_fun(self):$/;"	m	class:ViewServerTestCase
+test_add_fun	couchdb/tests/view.py	/^    def test_add_fun(self):$/;"	m	class:ViewServerTestCase
+test_add_index	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_add_index(self):$/;"	m	class:DatabaseTestCase
+test_add_index	couchdb/tests/client.py	/^    def test_add_index(self):$/;"	m	class:DatabaseTestCase
+test_allrows	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_allrows(self):$/;"	m	class:ViewIterationTestCase
+test_allrows	couchdb/tests/client.py	/^    def test_allrows(self):$/;"	m	class:ViewIterationTestCase
+test_attachment_crud	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_attachment_crud(self):$/;"	m	class:DatabaseTestCase
+test_attachment_crud	couchdb/tests/client.py	/^    def test_attachment_crud(self):$/;"	m	class:DatabaseTestCase
+test_attachment_crud_with_files	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_attachment_crud_with_files(self):$/;"	m	class:DatabaseTestCase
+test_attachment_crud_with_files	couchdb/tests/client.py	/^    def test_attachment_crud_with_files(self):$/;"	m	class:DatabaseTestCase
+test_attachment_from_fs	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_attachment_from_fs(self):$/;"	m	class:DatabaseTestCase
+test_attachment_from_fs	couchdb/tests/client.py	/^    def test_attachment_from_fs(self):$/;"	m	class:DatabaseTestCase
+test_attachment_no_filename	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_attachment_no_filename(self):$/;"	m	class:DatabaseTestCase
+test_attachment_no_filename	couchdb/tests/client.py	/^    def test_attachment_no_filename(self):$/;"	m	class:DatabaseTestCase
+test_automatic_id	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_automatic_id(self):$/;"	m	class:DocumentTestCase
+test_automatic_id	couchdb/tests/mapping.py	/^    def test_automatic_id(self):$/;"	m	class:DocumentTestCase
+test_bad_directory	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^    def test_bad_directory(self):$/;"	m	class:LoaderTestCase
+test_bad_directory	couchdb/tests/loader.py	/^    def test_bad_directory(self):$/;"	m	class:LoaderTestCase
+test_basic_auth	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_basic_auth(self):$/;"	m	class:ServerTestCase
+test_basic_auth	couchdb/tests/client.py	/^    def test_basic_auth(self):$/;"	m	class:ServerTestCase
+test_basics	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_basics(self):$/;"	m	class:CouchTests
+test_basics	couchdb/tests/couch_tests.py	/^    def test_basics(self):$/;"	m	class:CouchTests
+test_batch_update	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_batch_update(self):$/;"	m	class:DocumentTestCase
+test_batch_update	couchdb/tests/mapping.py	/^    def test_batch_update(self):$/;"	m	class:DocumentTestCase
+test_batchsizes	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_batchsizes(self):$/;"	m	class:ViewIterationTestCase
+test_batchsizes	couchdb/tests/client.py	/^    def test_batchsizes(self):$/;"	m	class:ViewIterationTestCase
+test_batchsizes_with_skip	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_batchsizes_with_skip(self):$/;"	m	class:ViewIterationTestCase
+test_batchsizes_with_skip	couchdb/tests/client.py	/^    def test_batchsizes_with_skip(self):$/;"	m	class:ViewIterationTestCase
+test_bulk_update_all_or_nothing	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_bulk_update_all_or_nothing(self):$/;"	m	class:DatabaseTestCase
+test_bulk_update_all_or_nothing	couchdb/tests/client.py	/^    def test_bulk_update_all_or_nothing(self):$/;"	m	class:DatabaseTestCase
+test_bulk_update_bad_doc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_bulk_update_bad_doc(self):$/;"	m	class:DatabaseTestCase
+test_bulk_update_bad_doc	couchdb/tests/client.py	/^    def test_bulk_update_bad_doc(self):$/;"	m	class:DatabaseTestCase
+test_bulk_update_conflict	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_bulk_update_conflict(self):$/;"	m	class:DatabaseTestCase
+test_bulk_update_conflict	couchdb/tests/client.py	/^    def test_bulk_update_conflict(self):$/;"	m	class:DatabaseTestCase
+test_cache_clean	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^    def test_cache_clean(self):$/;"	m	class:CacheTestCase
+test_cache_clean	couchdb/tests/couchhttp.py	/^    def test_cache_clean(self):$/;"	m	class:CacheTestCase
+test_change_id_failure	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_change_id_failure(self):$/;"	m	class:DocumentTestCase
+test_change_id_failure	couchdb/tests/mapping.py	/^    def test_change_id_failure(self):$/;"	m	class:DocumentTestCase
+test_changes	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_changes(self):$/;"	m	class:DatabaseTestCase
+test_changes	couchdb/tests/client.py	/^    def test_changes(self):$/;"	m	class:DatabaseTestCase
+test_changes_conn_usable	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_changes_conn_usable(self):$/;"	m	class:DatabaseTestCase
+test_changes_conn_usable	couchdb/tests/client.py	/^    def test_changes_conn_usable(self):$/;"	m	class:DatabaseTestCase
+test_changes_conn_usable_selector	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_changes_conn_usable_selector(self):$/;"	m	class:DatabaseTestCase
+test_changes_conn_usable_selector	couchdb/tests/client.py	/^    def test_changes_conn_usable_selector(self):$/;"	m	class:DatabaseTestCase
+test_changes_heartbeat	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_changes_heartbeat(self):$/;"	m	class:DatabaseTestCase
+test_changes_heartbeat	couchdb/tests/client.py	/^    def test_changes_heartbeat(self):$/;"	m	class:DatabaseTestCase
+test_changes_releases_conn	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_changes_releases_conn(self):$/;"	m	class:DatabaseTestCase
+test_changes_releases_conn	couchdb/tests/client.py	/^    def test_changes_releases_conn(self):$/;"	m	class:DatabaseTestCase
+test_changes_releases_conn_when_lastseq	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_changes_releases_conn_when_lastseq(self):$/;"	m	class:DatabaseTestCase
+test_changes_releases_conn_when_lastseq	couchdb/tests/client.py	/^    def test_changes_releases_conn_when_lastseq(self):$/;"	m	class:DatabaseTestCase
+test_changes_usable_selector	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_changes_usable_selector(self):$/;"	m	class:DatabaseTestCase
+test_changes_usable_selector	couchdb/tests/client.py	/^    def test_changes_usable_selector(self):$/;"	m	class:DatabaseTestCase
+test_clobber_1	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^    def test_clobber_1(self):$/;"	m	class:LoaderTestCase
+test_clobber_1	couchdb/tests/loader.py	/^    def test_clobber_1(self):$/;"	m	class:LoaderTestCase
+test_clobber_2	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^    def test_clobber_2(self):$/;"	m	class:LoaderTestCase
+test_clobber_2	couchdb/tests/loader.py	/^    def test_clobber_2(self):$/;"	m	class:LoaderTestCase
+test_close	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^    def test_close(self):$/;"	m	class:ResponseBodyTestCase
+test_close	couchdb/tests/couchhttp.py	/^    def test_close(self):$/;"	m	class:ResponseBodyTestCase
+test_collation	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_collation(self):$/;"	m	class:CouchTests
+test_collation	couchdb/tests/couch_tests.py	/^    def test_collation(self):$/;"	m	class:CouchTests
+test_commit	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_commit(self):$/;"	m	class:DatabaseTestCase
+test_commit	couchdb/tests/client.py	/^    def test_commit(self):$/;"	m	class:DatabaseTestCase
+test_conflict_detection	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_conflict_detection(self):$/;"	m	class:CouchTests
+test_conflict_detection	couchdb/tests/couch_tests.py	/^    def test_conflict_detection(self):$/;"	m	class:CouchTests
+test_copy_doc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc	couchdb/tests/client.py	/^    def test_copy_doc(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_conflict	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc_conflict(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_conflict	couchdb/tests/client.py	/^    def test_copy_doc_conflict(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_dest_baddoc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc_dest_baddoc(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_dest_baddoc	couchdb/tests/client.py	/^    def test_copy_doc_dest_baddoc(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_dest_dictlike	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc_dest_dictlike(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_dest_dictlike	couchdb/tests/client.py	/^    def test_copy_doc_dest_dictlike(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_destobj_norev	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc_destobj_norev(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_destobj_norev	couchdb/tests/client.py	/^    def test_copy_doc_destobj_norev(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_overwrite	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc_overwrite(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_overwrite	couchdb/tests/client.py	/^    def test_copy_doc_overwrite(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_src_baddoc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc_src_baddoc(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_src_baddoc	couchdb/tests/client.py	/^    def test_copy_doc_src_baddoc(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_src_dictlike	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc_src_dictlike(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_src_dictlike	couchdb/tests/client.py	/^    def test_copy_doc_src_dictlike(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_srcobj	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_copy_doc_srcobj(self):$/;"	m	class:DatabaseTestCase
+test_copy_doc_srcobj	couchdb/tests/client.py	/^    def test_copy_doc_srcobj(self):$/;"	m	class:DatabaseTestCase
+test_create_db_conflict	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_create_db_conflict(self):$/;"	m	class:ServerTestCase
+test_create_db_conflict	couchdb/tests/client.py	/^    def test_create_db_conflict(self):$/;"	m	class:ServerTestCase
+test_create_large_doc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_create_large_doc(self):$/;"	m	class:DatabaseTestCase
+test_create_large_doc	couchdb/tests/client.py	/^    def test_create_large_doc(self):$/;"	m	class:DatabaseTestCase
+test_datetime_to_json	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_datetime_to_json(self):$/;"	m	class:DocumentTestCase
+test_datetime_to_json	couchdb/tests/mapping.py	/^    def test_datetime_to_json(self):$/;"	m	class:DocumentTestCase
+test_datetime_with_microseconds	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_datetime_with_microseconds(self):$/;"	m	class:DocumentTestCase
+test_datetime_with_microseconds	couchdb/tests/mapping.py	/^    def test_datetime_with_microseconds(self):$/;"	m	class:DocumentTestCase
+test_ddoc_info	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_ddoc_info(self):$/;"	m	class:ViewTestCase
+test_ddoc_info	couchdb/tests/client.py	/^    def test_ddoc_info(self):$/;"	m	class:ViewTestCase
+test_default_attachment	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_default_attachment(self):$/;"	m	class:DatabaseTestCase
+test_default_attachment	couchdb/tests/client.py	/^    def test_default_attachment(self):$/;"	m	class:DatabaseTestCase
+test_delete_db	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_delete_db(self):$/;"	m	class:ServerTestCase
+test_delete_db	couchdb/tests/client.py	/^    def test_delete_db(self):$/;"	m	class:ServerTestCase
+test_delete_db_missing	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_delete_db_missing(self):$/;"	m	class:ServerTestCase
+test_delete_db_missing	couchdb/tests/client.py	/^    def test_delete_db_missing(self):$/;"	m	class:ServerTestCase
+test_descending	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_descending(self):$/;"	m	class:ViewIterationTestCase
+test_descending	couchdb/tests/client.py	/^    def test_descending(self):$/;"	m	class:ViewIterationTestCase
+test_design_docs	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_design_docs(self):$/;"	m	class:CouchTests
+test_design_docs	couchdb/tests/couch_tests.py	/^    def test_design_docs(self):$/;"	m	class:CouchTests
+test_disallow_nan	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_disallow_nan(self):$/;"	m	class:DatabaseTestCase
+test_disallow_nan	couchdb/tests/client.py	/^    def test_disallow_nan(self):$/;"	m	class:DatabaseTestCase
+test_disallow_none_id	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_disallow_none_id(self):$/;"	m	class:DatabaseTestCase
+test_disallow_none_id	couchdb/tests/client.py	/^    def test_disallow_none_id(self):$/;"	m	class:DatabaseTestCase
+test_doc_id_quoting	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_doc_id_quoting(self):$/;"	m	class:DatabaseTestCase
+test_doc_id_quoting	couchdb/tests/client.py	/^    def test_doc_id_quoting(self):$/;"	m	class:DatabaseTestCase
+test_doc_revs	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_doc_revs(self):$/;"	m	class:DatabaseTestCase
+test_doc_revs	couchdb/tests/client.py	/^    def test_doc_revs(self):$/;"	m	class:DatabaseTestCase
+test_double_iteration_over_same_response_body	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^    def test_double_iteration_over_same_response_body(self):$/;"	m	class:ResponseBodyTestCase
+test_double_iteration_over_same_response_body	couchdb/tests/couchhttp.py	/^    def test_double_iteration_over_same_response_body(self):$/;"	m	class:ResponseBodyTestCase
+test_empty_attachment	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_empty_attachment(self):$/;"	m	class:DatabaseTestCase
+test_empty_attachment	couchdb/tests/client.py	/^    def test_empty_attachment(self):$/;"	m	class:DatabaseTestCase
+test_empty_doc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_empty_doc(self):$/;"	m	class:UpdateHandlerTestCase
+test_empty_doc	couchdb/tests/client.py	/^    def test_empty_doc(self):$/;"	m	class:UpdateHandlerTestCase
+test_exists	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_exists(self):$/;"	m	class:DatabaseTestCase
+test_exists	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_exists(self):$/;"	m	class:ServerTestCase
+test_exists	couchdb/tests/client.py	/^    def test_exists(self):$/;"	m	class:DatabaseTestCase
+test_exists	couchdb/tests/client.py	/^    def test_exists(self):$/;"	m	class:ServerTestCase
+test_explain	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_explain(self):$/;"	m	class:DatabaseTestCase
+test_explain	couchdb/tests/client.py	/^    def test_explain(self):$/;"	m	class:DatabaseTestCase
+test_explicit_id_via_init	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_explicit_id_via_init(self):$/;"	m	class:DocumentTestCase
+test_explicit_id_via_init	couchdb/tests/mapping.py	/^    def test_explicit_id_via_init(self):$/;"	m	class:DocumentTestCase
+test_explicit_id_via_setter	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_explicit_id_via_setter(self):$/;"	m	class:DocumentTestCase
+test_explicit_id_via_setter	couchdb/tests/mapping.py	/^    def test_explicit_id_via_setter(self):$/;"	m	class:DocumentTestCase
+test_exports	build/lib.linux-x86_64-2.7/couchdb/tests/package.py	/^    def test_exports(self):$/;"	m	class:PackageTestCase
+test_exports	couchdb/tests/package.py	/^    def test_exports(self):$/;"	m	class:PackageTestCase
+test_find	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_find(self):$/;"	m	class:DatabaseTestCase
+test_find	couchdb/tests/client.py	/^    def test_find(self):$/;"	m	class:DatabaseTestCase
+test_flat	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^    def test_flat(self):$/;"	m	class:ReadMultipartTestCase
+test_flat	couchdb/tests/multipart.py	/^    def test_flat(self):$/;"	m	class:ReadMultipartTestCase
+test_get_db_missing	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_get_db_missing(self):$/;"	m	class:ServerTestCase
+test_get_db_missing	couchdb/tests/client.py	/^    def test_get_db_missing(self):$/;"	m	class:ServerTestCase
+test_get_has_default	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_get_has_default(self):$/;"	m	class:DocumentTestCase
+test_get_has_default	couchdb/tests/mapping.py	/^    def test_get_has_default(self):$/;"	m	class:DocumentTestCase
+test_handle_credentials	build/lib.linux-x86_64-2.7/couchdb/tests/tools.py	/^    def test_handle_credentials(self):$/;"	m	class:ToolDumpTestCase
+test_handle_credentials	build/lib.linux-x86_64-2.7/couchdb/tests/tools.py	/^    def test_handle_credentials(self):$/;"	m	class:ToolLoadTestCase
+test_handle_credentials	couchdb/tests/tools.py	/^    def test_handle_credentials(self):$/;"	m	class:ToolDumpTestCase
+test_handle_credentials	couchdb/tests/tools.py	/^    def test_handle_credentials(self):$/;"	m	class:ToolLoadTestCase
+test_i18n	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_i18n(self):$/;"	m	class:ViewServerTestCase
+test_i18n	couchdb/tests/view.py	/^    def test_i18n(self):$/;"	m	class:ViewServerTestCase
+test_include_docs	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_include_docs(self):$/;"	m	class:DatabaseTestCase
+test_include_docs	couchdb/tests/client.py	/^    def test_include_docs(self):$/;"	m	class:DatabaseTestCase
+test_index	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_index(self):$/;"	m	class:DatabaseTestCase
+test_index	couchdb/tests/client.py	/^    def test_index(self):$/;"	m	class:DatabaseTestCase
+test_init_with_resource	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_init_with_resource(self):$/;"	m	class:ServerTestCase
+test_init_with_resource	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_init_with_resource(self):$/;"	m	class:ViewTestCase
+test_init_with_resource	couchdb/tests/client.py	/^    def test_init_with_resource(self):$/;"	m	class:ServerTestCase
+test_init_with_resource	couchdb/tests/client.py	/^    def test_init_with_resource(self):$/;"	m	class:ViewTestCase
+test_init_with_session	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_init_with_session(self):$/;"	m	class:ServerTestCase
+test_init_with_session	couchdb/tests/client.py	/^    def test_init_with_session(self):$/;"	m	class:ServerTestCase
+test_iter	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_iter(self):$/;"	m	class:ServerTestCase
+test_iter	couchdb/tests/client.py	/^    def test_iter(self):$/;"	m	class:ServerTestCase
+test_iter_view	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_iter_view(self):$/;"	m	class:ViewTestCase
+test_iter_view	couchdb/tests/client.py	/^    def test_iter_view(self):$/;"	m	class:ViewTestCase
+test_json_attachment	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_json_attachment(self):$/;"	m	class:DatabaseTestCase
+test_json_attachment	couchdb/tests/client.py	/^    def test_json_attachment(self):$/;"	m	class:DatabaseTestCase
+test_json_encoding_error	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_json_encoding_error(self):$/;"	m	class:DatabaseTestCase
+test_json_encoding_error	couchdb/tests/client.py	/^    def test_json_encoding_error(self):$/;"	m	class:DatabaseTestCase
+test_large_docs	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_large_docs(self):$/;"	m	class:CouchTests
+test_large_docs	couchdb/tests/couch_tests.py	/^    def test_large_docs(self):$/;"	m	class:CouchTests
+test_len	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_len(self):$/;"	m	class:ServerTestCase
+test_len	couchdb/tests/client.py	/^    def test_len(self):$/;"	m	class:ServerTestCase
+test_limit	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_limit(self):$/;"	m	class:ViewIterationTestCase
+test_limit	couchdb/tests/client.py	/^    def test_limit(self):$/;"	m	class:ViewIterationTestCase
+test_list	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_list(self):$/;"	m	class:ShowListTestCase
+test_list	couchdb/tests/client.py	/^    def test_list(self):$/;"	m	class:ShowListTestCase
+test_list_keys	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_list_keys(self):$/;"	m	class:ShowListTestCase
+test_list_keys	couchdb/tests/client.py	/^    def test_list_keys(self):$/;"	m	class:ShowListTestCase
+test_list_view_params	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_list_view_params(self):$/;"	m	class:ShowListTestCase
+test_list_view_params	couchdb/tests/client.py	/^    def test_list_view_params(self):$/;"	m	class:ShowListTestCase
+test_loader	build/lib.linux-x86_64-2.7/couchdb/tests/loader.py	/^    def test_loader(self):$/;"	m	class:LoaderTestCase
+test_loader	couchdb/tests/loader.py	/^    def test_loader(self):$/;"	m	class:LoaderTestCase
+test_lots_of_docs	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_lots_of_docs(self):$/;"	m	class:CouchTests
+test_lots_of_docs	couchdb/tests/couch_tests.py	/^    def test_lots_of_docs(self):$/;"	m	class:CouchTests
+test_map_doc	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_map_doc(self):$/;"	m	class:ViewServerTestCase
+test_map_doc	couchdb/tests/view.py	/^    def test_map_doc(self):$/;"	m	class:ViewServerTestCase
+test_map_doc_with_logging	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_map_doc_with_logging(self):$/;"	m	class:ViewServerTestCase
+test_map_doc_with_logging	couchdb/tests/view.py	/^    def test_map_doc_with_logging(self):$/;"	m	class:ViewServerTestCase
+test_map_doc_with_logging_json	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_map_doc_with_logging_json(self):$/;"	m	class:ViewServerTestCase
+test_map_doc_with_logging_json	couchdb/tests/view.py	/^    def test_map_doc_with_logging_json(self):$/;"	m	class:ViewServerTestCase
+test_multiple_rows	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_multiple_rows(self):$/;"	m	class:CouchTests
+test_multiple_rows	couchdb/tests/couch_tests.py	/^    def test_multiple_rows(self):$/;"	m	class:CouchTests
+test_mutable_fields	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_mutable_fields(self):$/;"	m	class:DocumentTestCase
+test_mutable_fields	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_mutable_fields(self):$/;"	m	class:ListFieldTestCase
+test_mutable_fields	couchdb/tests/mapping.py	/^    def test_mutable_fields(self):$/;"	m	class:DocumentTestCase
+test_mutable_fields	couchdb/tests/mapping.py	/^    def test_mutable_fields(self):$/;"	m	class:ListFieldTestCase
+test_name	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_name(self):$/;"	m	class:DatabaseTestCase
+test_name	couchdb/tests/client.py	/^    def test_name(self):$/;"	m	class:DatabaseTestCase
+test_nested	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^    def test_nested(self):$/;"	f
+test_nested	couchdb/tests/multipart.py	/^    def test_nested(self):$/;"	f
+test_new_doc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_new_doc(self):$/;"	m	class:UpdateHandlerTestCase
+test_new_doc	couchdb/tests/client.py	/^    def test_new_doc(self):$/;"	m	class:UpdateHandlerTestCase
+test_nullkeys	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_nullkeys(self):$/;"	m	class:ViewIterationTestCase
+test_nullkeys	couchdb/tests/client.py	/^    def test_nullkeys(self):$/;"	m	class:ViewIterationTestCase
+test_old_datetime	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_old_datetime(self):$/;"	m	class:DocumentTestCase
+test_old_datetime	couchdb/tests/mapping.py	/^    def test_old_datetime(self):$/;"	m	class:DocumentTestCase
+test_options	build/lib.linux-x86_64-2.7/couchdb/tests/design.py	/^    def test_options(self):$/;"	m	class:DesignTestCase
+test_options	couchdb/tests/design.py	/^    def test_options(self):$/;"	m	class:DesignTestCase
+test_properties	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_properties(self):$/;"	m	class:ViewTestCase
+test_properties	couchdb/tests/client.py	/^    def test_properties(self):$/;"	m	class:ViewTestCase
+test_proxy_append	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_append(self):$/;"	m	class:ListFieldTestCase
+test_proxy_append	couchdb/tests/mapping.py	/^    def test_proxy_append(self):$/;"	m	class:ListFieldTestCase
+test_proxy_append_kwargs	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_append_kwargs(self):$/;"	m	class:ListFieldTestCase
+test_proxy_append_kwargs	couchdb/tests/mapping.py	/^    def test_proxy_append_kwargs(self):$/;"	m	class:ListFieldTestCase
+test_proxy_contains	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_contains(self):$/;"	m	class:ListFieldTestCase
+test_proxy_contains	couchdb/tests/mapping.py	/^    def test_proxy_contains(self):$/;"	m	class:ListFieldTestCase
+test_proxy_count	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_count(self):$/;"	m	class:ListFieldTestCase
+test_proxy_count	couchdb/tests/mapping.py	/^    def test_proxy_count(self):$/;"	m	class:ListFieldTestCase
+test_proxy_index	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_index(self):$/;"	m	class:ListFieldTestCase
+test_proxy_index	couchdb/tests/mapping.py	/^    def test_proxy_index(self):$/;"	m	class:ListFieldTestCase
+test_proxy_insert	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_insert(self):$/;"	m	class:ListFieldTestCase
+test_proxy_insert	couchdb/tests/mapping.py	/^    def test_proxy_insert(self):$/;"	m	class:ListFieldTestCase
+test_proxy_insert_kwargs	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_insert_kwargs(self):$/;"	m	class:ListFieldTestCase
+test_proxy_insert_kwargs	couchdb/tests/mapping.py	/^    def test_proxy_insert_kwargs(self):$/;"	m	class:ListFieldTestCase
+test_proxy_iter	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_iter(self):$/;"	m	class:ListFieldTestCase
+test_proxy_iter	couchdb/tests/mapping.py	/^    def test_proxy_iter(self):$/;"	m	class:ListFieldTestCase
+test_proxy_iter_dict	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_iter_dict(self):$/;"	m	class:ListFieldTestCase
+test_proxy_iter_dict	couchdb/tests/mapping.py	/^    def test_proxy_iter_dict(self):$/;"	m	class:ListFieldTestCase
+test_proxy_pop	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_pop(self):$/;"	m	class:ListFieldTestCase
+test_proxy_pop	couchdb/tests/mapping.py	/^    def test_proxy_pop(self):$/;"	m	class:ListFieldTestCase
+test_proxy_remove	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_remove(self):$/;"	m	class:ListFieldTestCase
+test_proxy_remove	couchdb/tests/mapping.py	/^    def test_proxy_remove(self):$/;"	m	class:ListFieldTestCase
+test_proxy_slices	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_proxy_slices(self):$/;"	m	class:ListFieldTestCase
+test_proxy_slices	couchdb/tests/mapping.py	/^    def test_proxy_slices(self):$/;"	m	class:ListFieldTestCase
+test_purge	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_purge(self):$/;"	m	class:DatabaseTestCase
+test_purge	couchdb/tests/client.py	/^    def test_purge(self):$/;"	m	class:DatabaseTestCase
+test_query	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_query(self):$/;"	m	class:WrappingTestCase
+test_query	couchdb/tests/mapping.py	/^    def test_query(self):$/;"	m	class:WrappingTestCase
+test_query_multi_get	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_query_multi_get(self):$/;"	m	class:DatabaseTestCase
+test_query_multi_get	couchdb/tests/client.py	/^    def test_query_multi_get(self):$/;"	m	class:DatabaseTestCase
+test_reduce	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_reduce(self):$/;"	m	class:ViewServerTestCase
+test_reduce	couchdb/tests/view.py	/^    def test_reduce(self):$/;"	m	class:ViewServerTestCase
+test_reduce_empty	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_reduce_empty(self):$/;"	m	class:ViewServerTestCase
+test_reduce_empty	couchdb/tests/view.py	/^    def test_reduce_empty(self):$/;"	m	class:ViewServerTestCase
+test_reduce_with_logging	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_reduce_with_logging(self):$/;"	m	class:ViewServerTestCase
+test_reduce_with_logging	couchdb/tests/view.py	/^    def test_reduce_with_logging(self):$/;"	m	class:ViewServerTestCase
+test_remove_index	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_remove_index(self):$/;"	m	class:DatabaseTestCase
+test_remove_index	couchdb/tests/client.py	/^    def test_remove_index(self):$/;"	m	class:DatabaseTestCase
+test_remove_miss	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^    def test_remove_miss(self):$/;"	m	class:CacheTestCase
+test_remove_miss	couchdb/tests/couchhttp.py	/^    def test_remove_miss(self):$/;"	m	class:CacheTestCase
+test_replicate	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_replicate(self):$/;"	m	class:ServerTestCase
+test_replicate	couchdb/tests/client.py	/^    def test_replicate(self):$/;"	m	class:ServerTestCase
+test_replicate_continuous	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_replicate_continuous(self):$/;"	m	class:ServerTestCase
+test_replicate_continuous	couchdb/tests/client.py	/^    def test_replicate_continuous(self):$/;"	m	class:ServerTestCase
+test_repr	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_repr(self):$/;"	m	class:ServerTestCase
+test_repr	couchdb/tests/client.py	/^    def test_repr(self):$/;"	m	class:ServerTestCase
+test_rereduce	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_rereduce(self):$/;"	m	class:ViewServerTestCase
+test_rereduce	couchdb/tests/view.py	/^    def test_rereduce(self):$/;"	m	class:ViewServerTestCase
+test_reset	build/lib.linux-x86_64-2.7/couchdb/tests/view.py	/^    def test_reset(self):$/;"	m	class:ViewServerTestCase
+test_reset	couchdb/tests/view.py	/^    def test_reset(self):$/;"	m	class:ViewServerTestCase
+test_retrieve_view_defn	build/lib.linux-x86_64-2.7/couchdb/tests/design.py	/^    def test_retrieve_view_defn(self):$/;"	m	class:DesignTestCase
+test_retrieve_view_defn	couchdb/tests/design.py	/^    def test_retrieve_view_defn(self):$/;"	m	class:DesignTestCase
+test_row_object	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_row_object(self):$/;"	m	class:ViewTestCase
+test_row_object	couchdb/tests/client.py	/^    def test_row_object(self):$/;"	m	class:ViewTestCase
+test_rowrepr	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_rowrepr(self):$/;"	m	class:ViewTestCase
+test_rowrepr	couchdb/tests/client.py	/^    def test_rowrepr(self):$/;"	m	class:ViewTestCase
+test_save_existing	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_save_existing(self):$/;"	m	class:DatabaseTestCase
+test_save_existing	couchdb/tests/client.py	/^    def test_save_existing(self):$/;"	m	class:DatabaseTestCase
+test_save_existing_batch	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_save_existing_batch(self):$/;"	m	class:DatabaseTestCase
+test_save_existing_batch	couchdb/tests/client.py	/^    def test_save_existing_batch(self):$/;"	m	class:DatabaseTestCase
+test_save_new	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_save_new(self):$/;"	m	class:DatabaseTestCase
+test_save_new	couchdb/tests/client.py	/^    def test_save_new(self):$/;"	m	class:DatabaseTestCase
+test_save_new_batch	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_save_new_batch(self):$/;"	m	class:DatabaseTestCase
+test_save_new_batch	couchdb/tests/client.py	/^    def test_save_new_batch(self):$/;"	m	class:DatabaseTestCase
+test_save_new_with_id	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_save_new_with_id(self):$/;"	m	class:DatabaseTestCase
+test_save_new_with_id	couchdb/tests/client.py	/^    def test_save_new_with_id(self):$/;"	m	class:DatabaseTestCase
+test_security	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_security(self):$/;"	m	class:DatabaseTestCase
+test_security	couchdb/tests/client.py	/^    def test_security(self):$/;"	m	class:DatabaseTestCase
+test_server_stats	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_server_stats(self):$/;"	m	class:ServerTestCase
+test_server_stats	couchdb/tests/client.py	/^    def test_server_stats(self):$/;"	m	class:ServerTestCase
+test_server_vars	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_server_vars(self):$/;"	m	class:ServerTestCase
+test_server_vars	couchdb/tests/client.py	/^    def test_server_vars(self):$/;"	m	class:ServerTestCase
+test_show_docid	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_show_docid(self):$/;"	m	class:ShowListTestCase
+test_show_docid	couchdb/tests/client.py	/^    def test_show_docid(self):$/;"	m	class:ShowListTestCase
+test_show_params	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_show_params(self):$/;"	m	class:ShowListTestCase
+test_show_params	couchdb/tests/client.py	/^    def test_show_params(self):$/;"	m	class:ShowListTestCase
+test_show_urls	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_show_urls(self):$/;"	m	class:ShowListTestCase
+test_show_urls	couchdb/tests/client.py	/^    def test_show_urls(self):$/;"	m	class:ShowListTestCase
+test_startkey	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_startkey(self):$/;"	m	class:ViewIterationTestCase
+test_startkey	couchdb/tests/client.py	/^    def test_startkey(self):$/;"	m	class:ViewIterationTestCase
+test_store_existing	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_store_existing(self):$/;"	m	class:DocumentTestCase
+test_store_existing	couchdb/tests/mapping.py	/^    def test_store_existing(self):$/;"	m	class:DocumentTestCase
+test_sync_many	build/lib.linux-x86_64-2.7/couchdb/tests/design.py	/^    def test_sync_many(self):$/;"	m	class:DesignTestCase
+test_sync_many	couchdb/tests/design.py	/^    def test_sync_many(self):$/;"	m	class:DesignTestCase
+test_timeout	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^    def test_timeout(self):$/;"	m	class:SessionTestCase
+test_timeout	couchdb/tests/couchhttp.py	/^    def test_timeout(self):$/;"	m	class:SessionTestCase
+test_timeout_retry	build/lib.linux-x86_64-2.7/couchdb/tests/couchhttp.py	/^    def test_timeout_retry(self):$/;"	m	class:SessionTestCase
+test_timeout_retry	couchdb/tests/couchhttp.py	/^    def test_timeout_retry(self):$/;"	m	class:SessionTestCase
+test_tmpview_repr	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_tmpview_repr(self):$/;"	m	class:ViewTestCase
+test_tmpview_repr	couchdb/tests/client.py	/^    def test_tmpview_repr(self):$/;"	m	class:ViewTestCase
+test_to_json	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_to_json(self):$/;"	m	class:ListFieldTestCase
+test_to_json	couchdb/tests/mapping.py	/^    def test_to_json(self):$/;"	m	class:ListFieldTestCase
+test_unicode	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_unicode(self):$/;"	m	class:DatabaseTestCase
+test_unicode	couchdb/tests/client.py	/^    def test_unicode(self):$/;"	m	class:DatabaseTestCase
+test_unicode_content	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^    def test_unicode_content(self):$/;"	m	class:WriteMultipartTestCase
+test_unicode_content	couchdb/tests/multipart.py	/^    def test_unicode_content(self):$/;"	m	class:WriteMultipartTestCase
+test_unicode_content_ascii	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^    def test_unicode_content_ascii(self):$/;"	m	class:WriteMultipartTestCase
+test_unicode_content_ascii	couchdb/tests/multipart.py	/^    def test_unicode_content_ascii(self):$/;"	m	class:WriteMultipartTestCase
+test_unicode_headers	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^    def test_unicode_headers(self):$/;"	f
+test_unicode_headers	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^    def test_unicode_headers(self):$/;"	m	class:WriteMultipartTestCase
+test_unicode_headers	couchdb/tests/multipart.py	/^    def test_unicode_headers(self):$/;"	f
+test_unicode_headers	couchdb/tests/multipart.py	/^    def test_unicode_headers(self):$/;"	m	class:WriteMultipartTestCase
+test_unicode_headers_charset	build/lib.linux-x86_64-2.7/couchdb/tests/multipart.py	/^    def test_unicode_headers_charset(self):$/;"	m	class:WriteMultipartTestCase
+test_unicode_headers_charset	couchdb/tests/multipart.py	/^    def test_unicode_headers_charset(self):$/;"	m	class:WriteMultipartTestCase
+test_update_doc	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_update_doc(self):$/;"	m	class:UpdateHandlerTestCase
+test_update_doc	couchdb/tests/client.py	/^    def test_update_doc(self):$/;"	m	class:UpdateHandlerTestCase
+test_update_seq	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_update_seq(self):$/;"	m	class:ViewTestCase
+test_update_seq	couchdb/tests/client.py	/^    def test_update_seq(self):$/;"	m	class:ViewTestCase
+test_update_with_unsafe_doc_ids	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_update_with_unsafe_doc_ids(self):$/;"	m	class:CouchTests
+test_update_with_unsafe_doc_ids	couchdb/tests/couch_tests.py	/^    def test_update_with_unsafe_doc_ids(self):$/;"	m	class:CouchTests
+test_user_management	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_user_management(self):$/;"	m	class:ServerTestCase
+test_user_management	couchdb/tests/client.py	/^    def test_user_management(self):$/;"	m	class:ServerTestCase
+test_utf8_encoding	build/lib.linux-x86_64-2.7/couchdb/tests/couch_tests.py	/^    def test_utf8_encoding(self):$/;"	m	class:CouchTests
+test_utf8_encoding	couchdb/tests/couch_tests.py	/^    def test_utf8_encoding(self):$/;"	m	class:CouchTests
+test_uuids	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_uuids(self):$/;"	m	class:ServerTestCase
+test_uuids	couchdb/tests/client.py	/^    def test_uuids(self):$/;"	m	class:ServerTestCase
+test_view	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_view(self):$/;"	m	class:WrappingTestCase
+test_view	couchdb/tests/mapping.py	/^    def test_view(self):$/;"	m	class:WrappingTestCase
+test_view_cleanup	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_view_cleanup(self):$/;"	m	class:ViewTestCase
+test_view_cleanup	couchdb/tests/client.py	/^    def test_view_cleanup(self):$/;"	m	class:ViewTestCase
+test_view_compaction	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_view_compaction(self):$/;"	m	class:ViewTestCase
+test_view_compaction	couchdb/tests/client.py	/^    def test_view_compaction(self):$/;"	m	class:ViewTestCase
+test_view_function_objects	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_view_function_objects(self):$/;"	m	class:ViewTestCase
+test_view_function_objects	couchdb/tests/client.py	/^    def test_view_function_objects(self):$/;"	m	class:ViewTestCase
+test_view_multi_get	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_view_multi_get(self):$/;"	m	class:ViewTestCase
+test_view_multi_get	couchdb/tests/client.py	/^    def test_view_multi_get(self):$/;"	m	class:ViewTestCase
+test_viewfield_property	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_viewfield_property(self):$/;"	m	class:WrappingTestCase
+test_viewfield_property	couchdb/tests/mapping.py	/^    def test_viewfield_property(self):$/;"	m	class:WrappingTestCase
+test_wrapped_view	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^    def test_wrapped_view(self):$/;"	m	class:WrappingTestCase
+test_wrapped_view	couchdb/tests/mapping.py	/^    def test_wrapped_view(self):$/;"	m	class:WrappingTestCase
+test_wrapper_iter	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_wrapper_iter(self):$/;"	m	class:ViewTestCase
+test_wrapper_iter	couchdb/tests/client.py	/^    def test_wrapper_iter(self):$/;"	m	class:ViewTestCase
+test_wrapper_rows	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^    def test_wrapper_rows(self):$/;"	m	class:ViewTestCase
+test_wrapper_rows	couchdb/tests/client.py	/^    def test_wrapper_rows(self):$/;"	m	class:ViewTestCase
+title	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_automatic_id.Post
+title	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_batch_update.Post
+title	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_change_id_failure.Post
+title	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_explicit_id_via_init.Post
+title	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_explicit_id_via_setter.Post
+title	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_store_existing.Post
+title	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:ListFieldTestCase.test_to_json.Post
+title	couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_automatic_id.Post
+title	couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_batch_update.Post
+title	couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_change_id_failure.Post
+title	couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_explicit_id_via_init.Post
+title	couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_explicit_id_via_setter.Post
+title	couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:DocumentTestCase.test_store_existing.Post
+title	couchdb/tests/mapping.py	/^            title = mapping.TextField()$/;"	v	class:ListFieldTestCase.test_to_json.Post
+total_rows	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def total_rows(self):$/;"	m	class:ViewResults
+total_rows	couchdb/client.py	/^    def total_rows(self):$/;"	m	class:ViewResults
+unwrap	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def unwrap(self):$/;"	m	class:Mapping
+unwrap	couchdb/mapping.py	/^    def unwrap(self):$/;"	m	class:Mapping
+update	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def update(self, documents, **options):$/;"	m	class:Database
+update	couchdb/client.py	/^    def update(self, documents, **options):$/;"	m	class:Database
+update_doc	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def update_doc(self, name, docid=None, **options):$/;"	m	class:Database
+update_doc	couchdb/client.py	/^    def update_doc(self, name, docid=None, **options):$/;"	m	class:Database
+update_seq	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def update_seq(self):$/;"	m	class:ViewResults
+update_seq	couchdb/client.py	/^    def update_seq(self):$/;"	m	class:ViewResults
+url	setup.py	/^    url = 'https:\/\/github.com\/djc\/couchdb-python\/',$/;"	v
+urlencode	build/lib.linux-x86_64-2.7/couchdb/http.py	/^def urlencode(data):$/;"	f
+urlencode	couchdb/http.py	/^def urlencode(data):$/;"	f
+urljoin	build/lib.linux-x86_64-2.7/couchdb/http.py	/^def urljoin(base, *path, **query):$/;"	f
+urljoin	couchdb/http.py	/^def urljoin(base, *path, **query):$/;"	f
+use	build/lib.linux-x86_64-2.7/couchdb/json.py	/^def use(module=None, decode=None, encode=None):$/;"	f
+use	couchdb/json.py	/^def use(module=None, decode=None, encode=None):$/;"	f
+utype	build/lib.linux-x86_64-2.7/couchdb/util2.py	/^utype = unicode$/;"	v
+utype	build/lib.linux-x86_64-2.7/couchdb/util3.py	/^utype = str$/;"	v
+utype	couchdb/util2.py	/^utype = unicode$/;"	v
+utype	couchdb/util3.py	/^utype = str$/;"	v
+uuids	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def uuids(self, count=None):$/;"	m	class:Server
+uuids	couchdb/client.py	/^    def uuids(self, count=None):$/;"	m	class:Server
+value	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def value(self):$/;"	m	class:Row
+value	couchdb/client.py	/^    def value(self):$/;"	m	class:Row
+verify_token	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def verify_token(self, token):$/;"	m	class:Server
+verify_token	couchdb/client.py	/^    def verify_token(self, token):$/;"	m	class:Server
+version	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def version(self):$/;"	m	class:Server
+version	couchdb/client.py	/^    def version(self):$/;"	m	class:Server
+version	doc/conf.py	/^version = '1.0'$/;"	v
+version	setup.py	/^    version = '1.1.1',$/;"	v
+version_info	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def version_info(self):$/;"	m	class:Server
+version_info	couchdb/client.py	/^    def version_info(self):$/;"	m	class:Server
+view	build/lib.linux-x86_64-2.7/couchdb/client.py	/^    def view(self, name, wrapper=None, **options):$/;"	m	class:Database
+view	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def view(cls, db, viewname, **options):$/;"	m	class:Document
+view	couchdb/client.py	/^    def view(self, name, wrapper=None, **options):$/;"	m	class:Database
+view	couchdb/mapping.py	/^    def view(cls, db, viewname, **options):$/;"	m	class:Document
+view_wrapped	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^        def view_wrapped(fun):$/;"	f	function:ViewField.define
+view_wrapped	couchdb/mapping.py	/^        def view_wrapped(fun):$/;"	f	function:ViewField.define
+wakeup	build/lib.linux-x86_64-2.7/couchdb/tests/client.py	/^        def wakeup():$/;"	f	function:DatabaseTestCase.test_changes_heartbeat
+wakeup	couchdb/tests/client.py	/^        def wakeup():$/;"	f	function:DatabaseTestCase.test_changes_heartbeat
+with_include_docs	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        with_include_docs = mapping.ViewField('test', all_map_func,$/;"	v	class:WrappingTestCase.Item
+with_include_docs	couchdb/tests/mapping.py	/^        with_include_docs = mapping.ViewField('test', all_map_func,$/;"	v	class:WrappingTestCase.Item
+without_include_docs	build/lib.linux-x86_64-2.7/couchdb/tests/mapping.py	/^        without_include_docs = mapping.ViewField('test', all_map_func)$/;"	v	class:WrappingTestCase.Item
+without_include_docs	couchdb/tests/mapping.py	/^        without_include_docs = mapping.ViewField('test', all_map_func)$/;"	v	class:WrappingTestCase.Item
+wrap	build/lib.linux-x86_64-2.7/couchdb/mapping.py	/^    def wrap(cls, data):$/;"	m	class:Mapping
+wrap	couchdb/mapping.py	/^    def wrap(cls, data):$/;"	m	class:Mapping
+write_multipart	build/lib.linux-x86_64-2.7/couchdb/multipart.py	/^def write_multipart(fileobj, subtype='mixed', boundary=None):$/;"	f
+write_multipart	couchdb/multipart.py	/^def write_multipart(fileobj, subtype='mixed', boundary=None):$/;"	f
