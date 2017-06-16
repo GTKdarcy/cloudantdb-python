@@ -49,8 +49,9 @@ def load_db(fileobj, dburl, username=None, password=None, ignore_errors=False):
 
 	for headers, is_multipart, payload in read_multipart(fileobj):
 		docid = headers['content-id']
-		if 'credential' in docid or 'flow' in docid or 'setting' in docid or 'functions' in docid:
-			docid = Rename_docid(docid, hostname)
+		if '-db' in db.name:
+			if 'credential' in docid or 'flow' in docid or 'setting' in docid or 'functions' in docid:
+				docid = Rename_docid(docid, hostname)
 		obj = db.get(docid)
 		if obj == None:
 			new_doc = {'_id': docid}
