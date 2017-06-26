@@ -16,6 +16,7 @@ from base64 import b64encode
 from optparse import OptionParser
 import sys
 import os
+import time
 from couchdb import __version__ as VERSION
 from couchdb import json
 from couchdb.client import Database
@@ -49,6 +50,7 @@ def load_db(fileobj, dburl, username=None, password=None, ignore_errors=False):
 
 	for headers, is_multipart, payload in read_multipart(fileobj):
 		docid = headers['content-id']
+		time.sleep(1)
 		if '-db' in db.name:
 			if 'credential' in docid or 'flow' in docid or 'setting' in docid or 'functions' in docid:
 				docid = Rename_docid(docid, hostname)
