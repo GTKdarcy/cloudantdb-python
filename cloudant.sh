@@ -29,7 +29,7 @@ SCRIPTVERSION()
 {
 	echo
 	echo -e "\t** IBM Bluemix cloudant shell script version: $scriptversionnumber **"
-	exit 1
+	exit 0
 }
 
 # If quiet option: Setup echo mode and curl '--silent' opt
@@ -43,7 +43,7 @@ VERBOSEMODE()
 		echoVerbose=false
 	fi
 	
-	exit 1
+	exit 0
 }
 
 TIMESTAMP()
@@ -51,7 +51,7 @@ TIMESTAMP()
 	# If -T (timestamp) option, append datetime stamp ("-YYYYMMDD-hhmmss") before file extension
 	datetime=`date "+%Y%m%d-%H%M%S"`                      # Format: YYYYMMDD-hhmmss
 	echo $datetime
-	exit 1
+	exit 0
 }
 
 DB_URL()
@@ -181,5 +181,5 @@ elif [ $dump = false ]&&[ $upload = true ]; then
 #	$echoVerbose && echo "... INFO: Checking for database"
 fi
 
-exit 1
+exit 0
 
